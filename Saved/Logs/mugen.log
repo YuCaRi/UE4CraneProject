@@ -1,0 +1,1090 @@
+﻿Log file open, 05/13/17 17:28:36
+LogInit:Display: Running engine for game: mugen
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1180327269) SRandInit(-1180327269).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.511804
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3348071
+LogInit: Engine Version: 4.15.1-3348071+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Mar 15 2017 16:52:47
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/UE4/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.13-08.28.38:538][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.13-08.28.38:538][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.13-08.28.38:558][  0]LogInit: Computer: YUCARI-PC
+[2017.05.13-08.28.38:558][  0]LogInit: User: YuCaRi
+[2017.05.13-08.28.38:558][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.05.13-08.28.38:558][  0]LogInit: High frequency timer resolution =3.312851 MHz
+[2017.05.13-08.28.38:558][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.13-08.28.38:558][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.13-08.28.38:558][  0]LogMemory: Process Physical Memory: 267.23 MB used, 267.23 MB peak
+[2017.05.13-08.28.38:558][  0]LogMemory: Process Virtual Memory: 265.27 MB used, 265.27 MB peak
+[2017.05.13-08.28.38:558][  0]LogMemory: Physical Memory: 3354.81 MB used,  4754.31 MB free, 8109.12 MB total
+[2017.05.13-08.28.38:558][  0]LogMemory: Virtual Memory: 642.93 MB used,  4754.31 MB free, 8388608.00 MB total
+[2017.05.13-08.28.38:962][  0]LogTextLocalizationManager: No specific translations for ('ja-JP') exist, so ('ja') translations will be used.
+[2017.05.13-08.28.39:100][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (真の場合、Relevant anim ノードはアニメーションで最も高いウェイトのものを無視します。
+このノード)
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (319969718) Localized String: (真の場合、アニメーションで最も高いウェイトのものを無視するRelevant anim ノードは
+このノードを無視します)
+[2017.05.13-08.28.39:100][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (再生が最後まで終わった後、ループ再生するようにしますか？)
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2133979316) Localized String: (ループが最後まで到達した時に、アニメーションのループを継続するべきか？)
+[2017.05.13-08.28.39:100][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースで値を取得するX座標)
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースでサンプリングするX座標)
+[2017.05.13-08.28.39:100][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースで値を取得するY座標)
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースでサンプリングするY座標)
+[2017.05.13-08.28.39:100][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースで値を取得するZ座標)
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースでサンプリングするZ座標)
+[2017.05.13-08.28.39:100][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (再生するブレンドスペースのアセット)
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1599043277) Localized String: (再生するブレンド空間アセット)
+[2017.05.13-08.28.39:100][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (このマシーンで1フレームあたりに同時に処理できるトランジションの最大数)
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1567650430) Localized String: (単一フレームでマシーンが「同時」に受け取れる遷移の最大数)
+[2017.05.13-08.28.39:100][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (再生速度の倍率です。負の数値も使う事ができます。その場合逆再生になります。)
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (再生レート乗数。アニメーションを逆再生する負の値にすることができます。)
+[2017.05.13-08.28.39:100][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2133979316) Localized String: (ループが最後まで到達した時に、アニメーションのループを継続するべきか？)
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (2133979316) Localized String: (最後に到達した時にアニメーションのループを継続しますか？)
+[2017.05.13-08.28.39:100][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (再生レート乗数。アニメーションを逆再生する負の値にすることができます。)
+Localization Resource: (C:/UE4/UE_4.15/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (-1274923958) Localized String: (再生速度の倍率です。負の数値も使う事ができます。その場合逆再生になります。)
+[2017.05.13-08.28.42:365][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.13-08.28.42:390][  0]LogD3D11RHI:    0. 'AMD Radeon HD 7800 Series' (Feature Level 11_0)
+[2017.05.13-08.28.42:390][  0]LogD3D11RHI:       2026/0/3798 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2017.05.13-08.28.42:390][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.13-08.28.42:395][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.13-08.28.42:395][  0]LogD3D11RHI:     GPU DeviceId: 0x6818 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.13-08.28.42:395][  0]LogWindows: EnumDisplayDevices:
+[2017.05.13-08.28.42:395][  0]LogWindows:    0. 'AMD Radeon HD 7800 Series' (P:1 D:1)
+[2017.05.13-08.28.42:395][  0]LogWindows:    1. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2017.05.13-08.28.42:395][  0]LogWindows:    2. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2017.05.13-08.28.42:395][  0]LogWindows:    3. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2017.05.13-08.28.42:396][  0]LogWindows:    4. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2017.05.13-08.28.42:396][  0]LogWindows:    5. 'AMD Radeon HD 7800 Series' (P:0 D:0)
+[2017.05.13-08.28.42:396][  0]LogWindows:    6. 'RDPDD Chained DD' (P:0 D:0)
+[2017.05.13-08.28.42:396][  0]LogWindows:    7. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.05.13-08.28.42:396][  0]LogWindows:    8. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.05.13-08.28.42:396][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:6 
+[2017.05.13-08.28.42:396][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 7800 Series
+[2017.05.13-08.28.42:396][  0]LogD3D11RHI:   Driver Version: Crimson ReLive 17.2.1 (internal:21.19.519.2, unified:21.19.519.2)
+[2017.05.13-08.28.42:396][  0]LogD3D11RHI:      Driver Date: 2-10-2017
+[2017.05.13-08.28.42:396][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.13-08.28.42:443][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.13-08.28.42:471][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2017.05.13-08.28.42:478][  0]LogShaderCompilers: Guid format shader working directory is 5 characters bigger than the processId version (../../../../../Users/YuCaRi/Desktop/yuugen/Intermediate/Shaders/WorkingDirectory/8312/).
+[2017.05.13-08.28.42:478][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/YuCaRi/AppData/Local/Temp/UnrealShaderWorkingDir/ED78395444D60E4ED67CB1ABDB43A198/'.
+[2017.05.13-08.28.42:478][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.13-08.28.46:643][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.13-08.28.46:728][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.13-08.28.46:813][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.13-08.28.46:902][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.13-08.28.46:990][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.13-08.28.47:076][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.13-08.28.47:164][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.13-08.28.47:249][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.13-08.28.47:323][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.13-08.28.47:409][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.13-08.28.47:498][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.13-08.28.47:583][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.13-08.28.47:668][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.13-08.28.47:754][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.13-08.28.47:839][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.13-08.28.48:006][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.13-08.28.48:007][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.13-08.28.48:075][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.13-08.28.48:235][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.13-08.28.48:275][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.13-08.28.48:355][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.13-08.28.48:437][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.13-08.28.48:523][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.13-08.28.48:609][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.13-08.28.48:609][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.13-08.28.49:501][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.13-08.28.49:723][  0]LogDerivedDataCache: Loaded boot cache 0.22s 60MB C:/Users/YuCaRi/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.13-08.28.49:724][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/YuCaRi/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.13-08.28.49:724][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/YuCaRi/Desktop/yuugen/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.13-08.28.49:724][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.13-08.28.49:724][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/YuCaRi/Desktop/yuugen/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.13-08.28.49:724][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.13-08.28.49:750][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.13-08.28.49:764][  0]LogDerivedDataCache: Using Local data cache path C:/Users/YuCaRi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.13-08.28.49:782][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.13-08.28.49:791][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.13-08.28.49:791][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.13-08.28.55:407][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.13-08.28.55:419][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.13-08.28.55:765][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.13-08.28.55:840][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.13-08.28.55:906][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.13-08.28.55:906][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.13-08.28.55:906][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.13-08.28.57:121][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: mugen, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 120315307
+[2017.05.13-08.28.57:173][  0]LogAssetRegistry: FAssetRegistry took 0.0198 seconds to start up
+[2017.05.13-08.28.57:232][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.039826 seconds
+[2017.05.13-08.28.57:244][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.13-08.28.57:244][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.13-08.28.57:244][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.13-08.28.57:305][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.13-08.29.07:066][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.13-08.29.07:107][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.13-08.29.07:854][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.13-08.29.08:418][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.05.13-08.29.11:043][  0]LogEngine: Initializing Engine...
+[2017.05.13-08.29.11:044][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.13-08.29.11:399][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.13-08.29.11:429][  0]LogInit: XAudio2 using 'スピーカー (USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.13-08.29.11:439][  0]LogInit: FAudioDevice initialized.
+[2017.05.13-08.29.11:481][  0]LogDerivedDataCache: Saved boot cache 0.04s 60MB C:/Users/YuCaRi/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.13-08.29.11:496][  0]LogInit: Texture streaming: Enabled
+[2017.05.13-08.29.11:596][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.13-08.29.12:000][  0]LogInit: Transaction tracking system initialized
+[2017.05.13-08.29.12:587][  0]BlueprintLog: New page: エディタの読み込み
+[2017.05.13-08.29.13:952][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2017.05.13-08.29.15:103][  0]LogConsoleResponse:Display: 
+[2017.05.13-08.29.15:407][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.13-08.29.15:407][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.13-08.29.16:062][  0]LogFileCache: Scanning file cache for directory 'C:/Users/YuCaRi/Desktop/yuugen/Content/' took 0.01s
+[2017.05.13-08.29.17:235][  0]Cmd: MAP LOAD FILE="../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.13-08.29.17:239][  0]LightingResults: New page: ライティングのビルド
+[2017.05.13-08.29.17:311][  0]MapCheck: New page: マップをチェック
+[2017.05.13-08.29.17:311][  0]LightingResults: New page: <何も選択されていません>
+[2017.05.13-08.29.17:495][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Audio/Explosion_Cue' が見つかりません
+[2017.05.13-08.29.17:495][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/PlayerShotWeapon.uasset のロード中にアセット '/Game/StarterContent/Audio/Explosion_Cue'  のファイルが見つかりません
+[2017.05.13-08.29.17:495][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/PlayerShotWeapon : アセットのファイルが見つかりません /Game/StarterContent/Audio/Explosion_Cue
+[2017.05.13-08.29.17:495][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Fire' が見つかりません
+[2017.05.13-08.29.17:495][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/PlayerShotWeapon.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Fire'  のファイルが見つかりません
+[2017.05.13-08.29.17:495][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/PlayerShotWeapon : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Fire
+[2017.05.13-08.29.17:495][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Fire' が見つかりません
+[2017.05.13-08.29.17:495][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/PlayerShotWeapon.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Fire'  のファイルが見つかりません
+[2017.05.13-08.29.17:495][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/PlayerShotWeapon : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Fire
+[2017.05.13-08.29.17:495][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Audio/Explosion_Cue' が見つかりません
+[2017.05.13-08.29.17:496][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/PlayerShotWeapon.uasset のロード中にアセット '/Game/StarterContent/Audio/Explosion_Cue'  のファイルが見つかりません
+[2017.05.13-08.29.17:496][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/PlayerShotWeapon : アセットのファイルが見つかりません /Game/StarterContent/Audio/Explosion_Cue
+[2017.05.13-08.29.17:496][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Audio/Explosion_Cue' が見つかりません
+[2017.05.13-08.29.17:496][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset のロード中にアセット '/Game/StarterContent/Audio/Explosion_Cue'  のファイルが見つかりません
+[2017.05.13-08.29.17:496][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : アセットのファイルが見つかりません /Game/StarterContent/Audio/Explosion_Cue
+[2017.05.13-08.29.17:496][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Fire' が見つかりません
+[2017.05.13-08.29.17:496][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Fire'  のファイルが見つかりません
+[2017.05.13-08.29.17:496][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Fire
+[2017.05.13-08.29.17:497][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Fire' が見つかりません
+[2017.05.13-08.29.17:497][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Fire'  のファイルが見つかりません
+[2017.05.13-08.29.17:497][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Fire
+[2017.05.13-08.29.17:497][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Audio/Explosion_Cue' が見つかりません
+[2017.05.13-08.29.17:497][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset のロード中にアセット '/Game/StarterContent/Audio/Explosion_Cue'  のファイルが見つかりません
+[2017.05.13-08.29.17:497][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : アセットのファイルが見つかりません /Game/StarterContent/Audio/Explosion_Cue
+[2017.05.13-08.29.17:498][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Fire' が見つかりません
+[2017.05.13-08.29.17:498][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Particles/P_Fire.P_Fire 参照元 ParticleSystem_GEN_VARIABLE
+[2017.05.13-08.29.17:498][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Fire'  のファイルが見つかりません
+[2017.05.13-08.29.17:498][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Particles/P_Fire.P_Fire 参照元 ParticleSystem_GEN_VARIABLE
+[2017.05.13-08.29.17:498][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Fire
+[2017.05.13-08.29.17:498][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Audio/Explosion_Cue' が見つかりません
+[2017.05.13-08.29.17:499][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Audio/Explosion_Cue.Explosion_Cue 参照元 Audio_GEN_VARIABLE
+[2017.05.13-08.29.17:499][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset のロード中にアセット '/Game/StarterContent/Audio/Explosion_Cue'  のファイルが見つかりません
+[2017.05.13-08.29.17:499][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Audio/Explosion_Cue.Explosion_Cue 参照元 Audio_GEN_VARIABLE
+[2017.05.13-08.29.17:499][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : アセットのファイルが見つかりません /Game/StarterContent/Audio/Explosion_Cue
+[2017.05.13-08.29.17:537][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプットアクション イベントは  インプットアクション Shot  に不明なアクション 'Shot'' を参照しています
+[2017.05.13-08.29.17:537][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプットアクション イベントは  インプットアクション ResetVR  に不明なアクション 'ResetVR'' を参照しています
+[2017.05.13-08.29.17:537][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis LookUpRate  に不明な軸 'LookUpRate' を参照しています
+[2017.05.13-08.29.17:537][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis TurnRate  に不明な軸 'TurnRate' を参照しています
+[2017.05.13-08.29.17:538][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプットアクション イベントは  インプットアクション Jump  に不明なアクション 'Jump'' を参照しています
+[2017.05.13-08.29.17:538][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis LookUp  に不明な軸 'LookUp' を参照しています
+[2017.05.13-08.29.17:538][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis Turn  に不明な軸 'Turn' を参照しています
+[2017.05.13-08.29.17:543][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 [0043.80] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 10 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.05.13-08.29.17:543][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 [0043.80] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.05.13-08.29.17:543][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 [0043.80] Compile of ThirdPersonCharacter successful, but with 9 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.05.13-08.29.17:550][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプットアクション イベントは  インプットアクション Shot  に不明なアクション 'Shot'' を参照しています
+[2017.05.13-08.29.17:550][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプットアクション イベントは  インプットアクション ResetVR  に不明なアクション 'ResetVR'' を参照しています
+[2017.05.13-08.29.17:550][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis LookUpRate  に不明な軸 'LookUpRate' を参照しています
+[2017.05.13-08.29.17:550][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis TurnRate  に不明な軸 'TurnRate' を参照しています
+[2017.05.13-08.29.17:550][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプットアクション イベントは  インプットアクション Jump  に不明なアクション 'Jump'' を参照しています
+[2017.05.13-08.29.17:550][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis LookUp  に不明な軸 'LookUp' を参照しています
+[2017.05.13-08.29.17:551][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis Turn  に不明な軸 'Turn' を参照しています
+[2017.05.13-08.29.17:556][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 [0043.82] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 10 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.05.13-08.29.17:556][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 [0043.82] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.05.13-08.29.17:556][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 [0043.82] Compile of ThirdPersonCharacter successful, but with 9 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.05.13-08.29.17:666][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Materials/M_Water_Ocean' が見つかりません
+[2017.05.13-08.29.17:666][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Materials/M_Water_Ocean.M_Water_Ocean 参照元 CharacterMesh0
+[2017.05.13-08.29.17:666][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Materials/M_Water_Ocean'  のファイルが見つかりません
+[2017.05.13-08.29.17:666][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Materials/M_Water_Ocean.M_Water_Ocean 参照元 CharacterMesh0
+[2017.05.13-08.29.17:666][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Materials/M_Water_Ocean
+[2017.05.13-08.29.17:666][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished' が見つかりません
+[2017.05.13-08.29.17:666][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.M_Wood_Floor_Walnut_Polished 参照元 CharacterMesh0
+[2017.05.13-08.29.17:666][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished'  のファイルが見つかりません
+[2017.05.13-08.29.17:667][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.M_Wood_Floor_Walnut_Polished 参照元 CharacterMesh0
+[2017.05.13-08.29.17:667][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished
+[2017.05.13-08.29.17:667][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Materials/M_Water_Ocean' が見つかりません
+[2017.05.13-08.29.17:667][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Materials/M_Water_Ocean'  のファイルが見つかりません
+[2017.05.13-08.29.17:667][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Materials/M_Water_Ocean
+[2017.05.13-08.29.17:667][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished' が見つかりません
+[2017.05.13-08.29.17:667][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished'  のファイルが見つかりません
+[2017.05.13-08.29.17:667][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished
+[2017.05.13-08.29.17:667][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Materials/M_Water_Ocean' が見つかりません
+[2017.05.13-08.29.17:668][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Materials/M_Water_Ocean'  のファイルが見つかりません
+[2017.05.13-08.29.17:668][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Materials/M_Water_Ocean
+[2017.05.13-08.29.17:668][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished' が見つかりません
+[2017.05.13-08.29.17:668][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished'  のファイルが見つかりません
+[2017.05.13-08.29.17:668][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished
+[2017.05.13-08.29.17:668][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Steam_Lit' が見つかりません
+[2017.05.13-08.29.17:668][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Steam_Lit'  のファイルが見つかりません
+[2017.05.13-08.29.17:668][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Steam_Lit
+[2017.05.13-08.29.17:668][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Steam_Lit' が見つかりません
+[2017.05.13-08.29.17:668][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Steam_Lit'  のファイルが見つかりません
+[2017.05.13-08.29.17:668][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Steam_Lit
+[2017.05.13-08.29.17:669][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Steam_Lit' が見つかりません
+[2017.05.13-08.29.17:669][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit 参照元 K2Node_CallFunction_1
+[2017.05.13-08.29.17:669][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Steam_Lit'  のファイルが見つかりません
+[2017.05.13-08.29.17:669][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Particles/P_Steam_Lit.P_Steam_Lit 参照元 K2Node_CallFunction_1
+[2017.05.13-08.29.17:669][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Steam_Lit
+[2017.05.13-08.29.17:704][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Materials/M_Water_Ocean' が見つかりません
+[2017.05.13-08.29.17:704][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Materials/M_Water_Ocean'  のファイルが見つかりません
+[2017.05.13-08.29.17:705][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Materials/M_Water_Ocean
+[2017.05.13-08.29.17:705][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished' が見つかりません
+[2017.05.13-08.29.17:705][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished'  のファイルが見つかりません
+[2017.05.13-08.29.17:705][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished
+[2017.05.13-08.29.17:705][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Materials/M_Water_Ocean' が見つかりません
+[2017.05.13-08.29.17:705][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Materials/M_Water_Ocean'  のファイルが見つかりません
+[2017.05.13-08.29.17:705][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Materials/M_Water_Ocean
+[2017.05.13-08.29.17:705][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished' が見つかりません
+[2017.05.13-08.29.17:705][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished'  のファイルが見つかりません
+[2017.05.13-08.29.17:705][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished
+[2017.05.13-08.29.17:706][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Steam_Lit' が見つかりません
+[2017.05.13-08.29.17:706][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Steam_Lit'  のファイルが見つかりません
+[2017.05.13-08.29.17:706][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Steam_Lit
+[2017.05.13-08.29.17:706][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Steam_Lit' が見つかりません
+[2017.05.13-08.29.17:706][  0]LogLinker:Warning: ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/EnemyCharacter.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Steam_Lit'  のファイルが見つかりません
+[2017.05.13-08.29.17:706][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/EnemyCharacter : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Steam_Lit
+[2017.05.13-08.29.18:133][  0]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2017.05.13-08.29.18:135][  0]LogTemp:Display: Added material ShaderMap 0x0000000024BD9600 with Material 0x0000000025006080 to ShaderMapsBeingCompiled
+[2017.05.13-08.29.18:201][  0]LogTemp:Display: Kicking off shader compilation for BasicShapeMaterial, GameThreadShaderMap 0x0000000024BD9600
+[2017.05.13-08.29.18:350][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.13-08.29.18:398][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.13-08.29.18:401][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.13-08.29.18:507][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 106.548ミリ秒かかりました。
+[2017.05.13-08.29.18:507][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.274
+[2017.05.13-08.29.18:866][  0]LogCollectionManager: Loaded 0 collections in 0.002469 seconds
+[2017.05.13-08.29.19:094][  0]LogFileCache: Scanning file cache for directory 'C:/Users/YuCaRi/Desktop/yuugen/Saved/Collections/' took 0.01s
+[2017.05.13-08.29.19:094][  0]LogFileCache: Scanning file cache for directory 'C:/Users/YuCaRi/Desktop/yuugen/Content/Developers/YuCaRi/Collections/' took 0.02s
+[2017.05.13-08.29.19:094][  0]LogFileCache: Scanning file cache for directory 'C:/Users/YuCaRi/Desktop/yuugen/Content/Collections/' took 0.01s
+[2017.05.13-08.29.19:094][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000006 seconds
+[2017.05.13-08.29.19:125][  0]LogContentBrowser: Native class hierarchy populated in 0.0280 seconds. Added 2245 classes and 453 folders.
+[2017.05.13-08.29.20:191][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.13-08.29.20:191][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.13-08.29.20:833][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2017.05.13-08.29.22:523][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.05.13-08.29.22:651][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.05.13-08.29.22:905][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.13-08.29.22:915][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2017.05.13-08.29.23:023][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.13-08.29.23:023][  0]LogLoad: (Engine Initialization) Total time: 49.28 seconds
+[2017.05.13-08.29.23:023][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.31 seconds
+[2017.05.13-08.29.23:023][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.13-08.29.23:023][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.13-08.29.23:033][  0]LogOcInput: OculusInput pre-init called
+[2017.05.13-08.29.23:047][  0]LogTemp:Display: Finished compile of shader map 0x0000000024BD9600
+[2017.05.13-08.29.23:047][  0]LogTemp:Display: Shader map BasicShapeMaterial complete, GameThreadShaderMap 0x0000000024BD9600, marking material BasicShapeMaterial as finished
+[2017.05.13-08.29.23:047][  0]LogTemp:Display: Marking material as finished 0x0000000025006080
+[2017.05.13-08.29.23:078][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.13-08.29.23:100][  0]LogSlate: Took 0.005985 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.13-08.29.23:161][  0]LogSlate: Took 0.058255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.05.13-08.29.23:168][  0]LogSlate: Took 0.004466 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.13-08.29.23:182][  0]LogSlate: Took 0.004899 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.13-08.29.23:398][  0]LogSlate: Took 0.006775 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.13-08.29.23:533][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.05.13-08.29.23:762][  2]LogAssetRegistry: Asset discovery search completed in 26.6082 seconds
+[2017.05.13-08.29.23:762][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000012 seconds (found 0 objects)
+[2017.05.13-08.29.23:762][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2017.05.13-08.29.24:092][ 11]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 On branch master
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 Your branch is up-to-date with '有限できる無限増殖/master'.
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 Changes to be committed:
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報   (use "git reset HEAD <file>..." to unstage)
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Architecture/Pillar_50x500.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Architecture/SM_AssetPlatform.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Architecture/Wall_400x200.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Architecture/Wall_400x300.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Architecture/Wall_400x400.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Architecture/Wall_500x500.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Architecture/Wall_Door_400x300.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Architecture/Wall_Door_400x400.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Architecture/Wall_Window_400x300.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Architecture/Wall_Window_400x400.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Collapse01.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Collapse02.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Collapse_Cue.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Explosion01.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Explosion02.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Explosion_Cue.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Fire01.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Fire01_Cue.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Fire_Sparks01.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Light01.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Light01_Cue.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Light02.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Light02_Cue.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Smoke01.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Smoke01_Cue.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Starter_Background_Cue.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Starter_Birds01.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Starter_Music01.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Starter_Music_Cue.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Starter_Wind05.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Starter_Wind06.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Steam01.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Audio/Steam01_Cue.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Assets/Skybox.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/BP_LightStudio.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Maps/Advanced_Lighting.umap
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Maps/Minimal_Default.umap
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Maps/StarterMap.umap
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Maps/StarterMap_BuiltData.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_AssetPlatform.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Basic_Floor.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Basic_Wall.uasset
+[2017.05.13-08.29.24:602][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Brick_Clay_New.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Brick_Clay_Old.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_CobbleStone_Rough.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Concrete_Grime.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Concrete_Panels.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Concrete_Poured.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Concrete_Tiles.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Glass.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Ground_Grass.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Ground_Gravel.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Ground_Moss.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Metal_Chrome.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Metal_Copper.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Metal_Gold.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Metal_Rust.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Metal_Steel.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Rock_Basalt.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Rock_Sandstone.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Rock_Slate.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Tech_Panel.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Water_Lake.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Water_Ocean.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Wood_Oak.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Wood_Pine.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Materials/M_Wood_Walnut.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/Materials/M_Burst.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/Materials/M_Spark.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/Materials/M_radial_ramp.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/Materials/m_flare_01.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/P_Ambient_Dust.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/P_Explosion.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/P_Fire.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/P_Smoke.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/P_Sparks.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/MaterialSphere.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/Materials/M_Bush.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/Materials/M_Chair.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/Materials/M_Door.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/Materials/M_Frame.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/Materials/M_Lamp.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/Materials/M_MaterialSphere.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/Materials/M_Rock.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/Materials/M_Shelf.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/Materials/M_Statue.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/Materials/M_StatueGlass.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/Materials/M_TableRound.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_Bush.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_Chair.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_CornerFrame.uasset
+[2017.05.13-08.29.24:603][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_Couch.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_Door.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_DoorFrame.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_GlassWindow.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_Lamp_Ceiling.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_Lamp_Wall.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_PillarFrame.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_PillarFrame300.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_Rock.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_Shelf.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_Stairs.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_Statue.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_TableRound.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Props/SM_WindowFrame.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Cone.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Cube.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Cylinder.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Pipe.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Pipe_180.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Pipe_90.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Plane.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_QuadPyramid.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Sphere.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Torus.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_TriPyramid.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Trim.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Trim_90_In.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Tube.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Wedge_A.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_Wedge_B.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Shapes/Shape_WideCapsule.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Burst_M.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Bush_D.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Bush_N.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Chair_M.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Chair_N.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Checker_Noise_M.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Concrete_Grime_D.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Concrete_Panels_D.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Concrete_Panels_N.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Concrete_Poured_D.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Concrete_Poured_N.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset
+[2017.05.13-08.29.24:604][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Detail_Rocky_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Door_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Door_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Dust_Particle_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Explosion_SubUV.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Fire_SubUV.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Fire_Tiled_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Frame_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Frame_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Gradinet_01.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Ground_Grass_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Ground_Grass_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Ground_Gravel_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Ground_Gravel_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Ground_Moss_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Lamp_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Lamp_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_MacroVariation.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Metal_Copper_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Metal_Gold_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Metal_Gold_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Metal_Rust_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Metal_Rust_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Metal_Steel_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Metal_Steel_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Perlin_Noise_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_RockMesh_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_RockMesh_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Rock_Basalt_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Rock_Basalt_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Rock_Slate_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Rock_Slate_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Shelf_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Shelf_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Single_Tile_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Smoke_SubUV.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Spark_Core.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Statue_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Statue_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_TableRound_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_TableRound_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Tech_Dot_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Tech_Dot_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Tech_Panel_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Tech_Panel_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Water_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Water_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Wood_Oak_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Wood_Oak_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Wood_Pine_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Wood_Pine_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Wood_Walnut_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_Wood_Walnut_N.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	deleted:    Content/StarterContent/Textures/T_ground_Moss_D.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	new file:   Content/ThirdPersonBP/Blueprints/Flying.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	new file:   Content/ThirdPersonBP/Blueprints/FlyingBP.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	new file:   Content/ThirdPersonBP/Blueprints/Liz_Model.uasset
+[2017.05.13-08.29.24:605][ 30]SourceControl: 情報 	new file:   Content/ThirdPersonBP/Blueprints/Liz_Model_PhysicsAsset.uasset
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	new file:   Content/ThirdPersonBP/Blueprints/Liz_Model_Skeleton.uasset
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	new file:   Content/ThirdPersonBP/Blueprints/PlaneBP.uasset
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	new file:   Content/ThirdPersonBP/Blueprints/UFOBP.uasset
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	new file:   Content/ThirdPersonBP/Blueprints/Walking.uasset
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 Changes not staged for commit:
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報   (use "git add <file>..." to update what will be committed)
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	modified:   Config/DefaultEngine.ini
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	modified:   Config/DefaultInput.ini
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	modified:   Content/ThirdPersonBP/Blueprints/FlyingBP.uasset
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	modified:   Content/ThirdPersonBP/Blueprints/PlaneBP.uasset
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	modified:   Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	modified:   Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	modified:   Content/ThirdPersonBP/Blueprints/UFOBP.uasset
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	modified:   Content/ThirdPersonBP/EnemyCharacter.uasset
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	modified:   Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.13-08.29.24:606][ 30]SourceControl: 情報 	modified:   Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.05.13-08.29.34:040][599]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.13-08.29.34:755][599]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.29.34:755][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.13-08.29.34:756][599]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/14 2:29:34)
+[2017.05.13-08.29.34:757][599]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.13-08.29.34:797][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039215s)
+[2017.05.13-08.29.34:797][599]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.13-08.29.34:798][599]LogPlayLevel: PIE: World Init took: (0.001075s)
+[2017.05.13-08.29.34:798][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.042114s)
+[2017.05.13-08.29.34:848][599]LogInit: XAudio2 using 'スピーカー (USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.13-08.29.34:856][599]LogInit: FAudioDevice initialized.
+[2017.05.13-08.29.34:913][599]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.13-08.29.34:919][599]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.13-17.29.34
+[2017.05.13-08.29.34:921][599]LogWorld: Bringing up level for play took: 0.004830
+[2017.05.13-08.29.35:024][599]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.05.13-08.29.35:033][599]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.157のプレイ イン エディタの開始時間
+[2017.05.13-08.29.35:035][599]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.30.18:200][247]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.30.18:241][247]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.30.25:956][683]LogSlate: Took 0.002971 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.13-08.30.26:606][683]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.05.13-08.30.27:446][683]LogSlate: Took 0.000874 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.13-08.30.27:572][683]LogSlate: Took 0.005358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.13-08.30.27:739][684]LogSlate: Took 0.003788 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.13-08.30.38:546][413]BlueprintLog: New page: UFOBP をコンパイル
+[2017.05.13-08.30.55:278][513]BlueprintLog: New page: FlyingBP をコンパイル
+[2017.05.13-08.30.56:076][553]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/FlyingBP" FILE="../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/FlyingBP.uasset" SILENT=true
+[2017.05.13-08.30.56:105][553]LogSavePackage: Save=13.59ms
+[2017.05.13-08.30.56:105][553]LogSavePackage: Moving '../../../../../Users/YuCaRi/Desktop/yuugen/Saved/FlyingBPDDF69B154AD67001FA8D7181A2C7A08D.tmp' to '../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/FlyingBP.uasset'
+[2017.05.13-08.30.56:107][553]LogSavePackage:Display: Finished SavePackage ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/FlyingBP.uasset
+[2017.05.13-08.31.12:617][500]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.13-08.31.12:632][500]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.31.12:632][500]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.13-08.31.12:633][500]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/14 2:31:12)
+[2017.05.13-08.31.12:633][500]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.13-08.31.12:667][500]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034639s)
+[2017.05.13-08.31.12:669][500]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.13-08.31.12:669][500]LogPlayLevel: PIE: World Init took: (0.001544s)
+[2017.05.13-08.31.12:669][500]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.036496s)
+[2017.05.13-08.31.12:698][500]LogInit: XAudio2 using 'スピーカー (USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.13-08.31.12:706][500]LogInit: FAudioDevice initialized.
+[2017.05.13-08.31.12:736][500]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.13-08.31.12:738][500]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.13-17.31.12
+[2017.05.13-08.31.12:739][500]LogWorld: Bringing up level for play took: 0.001363
+[2017.05.13-08.31.12:741][500]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.451のプレイ イン エディタの開始時間
+[2017.05.13-08.31.12:741][500]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.31.23:254][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.31.23:290][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.32.18:022][577]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.13-08.32.18:034][577]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.32.18:034][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.13-08.32.18:034][577]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/14 2:32:18)
+[2017.05.13-08.32.18:034][577]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.13-08.32.18:055][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021168s)
+[2017.05.13-08.32.18:057][577]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.13-08.32.18:057][577]LogPlayLevel: PIE: World Init took: (0.001877s)
+[2017.05.13-08.32.18:058][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023518s)
+[2017.05.13-08.32.18:091][577]LogInit: XAudio2 using 'スピーカー (USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.13-08.32.18:096][577]LogInit: FAudioDevice initialized.
+[2017.05.13-08.32.18:126][577]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.13-08.32.18:129][577]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.13-17.32.18
+[2017.05.13-08.32.18:129][577]LogWorld: Bringing up level for play took: 0.002374
+[2017.05.13-08.32.18:134][577]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.94のプレイ イン エディタの開始時間
+[2017.05.13-08.32.18:134][577]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.32.30:999][324]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.32.31:056][324]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.33.51:462][249]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.13-08.33.51:474][249]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.33.51:474][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.13-08.33.51:474][249]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/14 2:33:51)
+[2017.05.13-08.33.51:474][249]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.13-08.33.51:497][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022113s)
+[2017.05.13-08.33.51:499][249]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.13-08.33.51:499][249]LogPlayLevel: PIE: World Init took: (0.002496s)
+[2017.05.13-08.33.51:500][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025149s)
+[2017.05.13-08.33.51:531][249]LogInit: XAudio2 using 'スピーカー (USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.13-08.33.51:537][249]LogInit: FAudioDevice initialized.
+[2017.05.13-08.33.51:569][249]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.13-08.33.51:573][249]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.13-17.33.51
+[2017.05.13-08.33.51:573][249]LogWorld: Bringing up level for play took: 0.002504
+[2017.05.13-08.33.51:577][249]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.382のプレイ イン エディタの開始時間
+[2017.05.13-08.33.51:577][249]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.34.18:275][924]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.34.18:314][924]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.34.30:713][295]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.13-08.34.30:725][295]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.34.30:725][295]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.13-08.34.30:725][295]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/14 2:34:30)
+[2017.05.13-08.34.30:725][295]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.13-08.34.30:744][295]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018549s)
+[2017.05.13-08.34.30:745][295]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.13-08.34.30:746][295]LogPlayLevel: PIE: World Init took: (0.001476s)
+[2017.05.13-08.34.30:746][295]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.020473s)
+[2017.05.13-08.34.30:781][295]LogInit: XAudio2 using 'スピーカー (USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.13-08.34.30:786][295]LogInit: FAudioDevice initialized.
+[2017.05.13-08.34.30:823][295]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.13-08.34.30:827][295]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.13-17.34.30
+[2017.05.13-08.34.30:827][295]LogWorld: Bringing up level for play took: 0.002285
+[2017.05.13-08.34.30:832][295]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.364のプレイ イン エディタの開始時間
+[2017.05.13-08.34.30:833][295]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.34.44:880][108]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.34.44:914][108]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.35.16:559][561]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.13-08.35.16:572][561]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.35.16:572][561]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.13-08.35.16:572][561]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/14 2:35:16)
+[2017.05.13-08.35.16:572][561]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.13-08.35.16:593][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021060s)
+[2017.05.13-08.35.16:595][561]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.13-08.35.16:595][561]LogPlayLevel: PIE: World Init took: (0.001651s)
+[2017.05.13-08.35.16:595][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023061s)
+[2017.05.13-08.35.16:629][561]LogInit: XAudio2 using 'スピーカー (USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.13-08.35.16:635][561]LogInit: FAudioDevice initialized.
+[2017.05.13-08.35.16:671][561]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.13-08.35.16:675][561]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.13-17.35.16
+[2017.05.13-08.35.16:675][561]LogWorld: Bringing up level for play took: 0.003269
+[2017.05.13-08.35.16:680][561]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.517のプレイ イン エディタの開始時間
+[2017.05.13-08.35.16:680][561]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.35.29:254][263]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.35.29:288][263]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.37.44:266][628]LogLinker: ファイル '/Game/PlaneBP' が見つかりません
+[2017.05.13-08.37.44:266][628]LogLinker: ファイル '/Game/PlaneBP' が見つかりません
+[2017.05.13-08.37.44:272][628]LogBlueprint:Warning: [PlaneBP] 'Fly' variable not found. Base class was probably changed.
+[2017.05.13-08.37.44:272][628]LogBlueprint:Warning: [PlaneBP] 'Fly' variable not found. Base class was probably changed.
+[2017.05.13-08.37.44:272][628]LogBlueprint:Warning: [PlaneBP] 'Fly' variable not found. Base class was probably changed.
+[2017.05.13-08.38.09:613][618]BlueprintLog: New page: PlaneBP をコンパイル
+[2017.05.13-08.38.11:261][725]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/PlaneBP" FILE="../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/PlaneBP.uasset" SILENT=true
+[2017.05.13-08.38.11:289][725]LogSavePackage: Save=16.86ms
+[2017.05.13-08.38.11:289][725]LogSavePackage: Moving '../../../../../Users/YuCaRi/Desktop/yuugen/Saved/PlaneBP6516831D49423E8083E8F2B6DCBDCF02.tmp' to '../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/PlaneBP.uasset'
+[2017.05.13-08.38.11:292][725]LogSavePackage:Display: Finished SavePackage ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/PlaneBP.uasset
+[2017.05.13-08.38.17:332][279]LogRenderer: Reallocating scene render targets to support 1208x880 NumSamples 1 (Frame:19485).
+[2017.05.13-08.38.43:861][449]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.13-08.38.43:877][449]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.38.43:878][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.13-08.38.43:878][449]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/14 2:38:43)
+[2017.05.13-08.38.43:878][449]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.13-08.38.43:900][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021919s)
+[2017.05.13-08.38.43:901][449]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.13-08.38.43:901][449]LogPlayLevel: PIE: World Init took: (0.001466s)
+[2017.05.13-08.38.43:902][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.023724s)
+[2017.05.13-08.38.43:936][449]LogInit: XAudio2 using 'スピーカー (USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.13-08.38.43:945][449]LogInit: FAudioDevice initialized.
+[2017.05.13-08.38.43:977][449]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.13-08.38.43:980][449]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.13-17.38.43
+[2017.05.13-08.38.43:981][449]LogWorld: Bringing up level for play took: 0.002821
+[2017.05.13-08.38.43:985][449]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.785のプレイ イン エディタの開始時間
+[2017.05.13-08.38.43:986][449]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.38.52:154][872]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.38.52:191][872]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.39.37:130][518]BlueprintLog: New page: FlyingBP をコンパイル
+[2017.05.13-08.39.37:137][518]LogBlueprint:Error: [Compiler FlyingBP] エラー このブループリントは Character ではありません。 ' ターゲット ' に接続が必要です。
+[2017.05.13-08.39.37:322][518]BlueprintEditorCompileResults:Error: エラー このブループリントは Character ではありません。 ' ターゲット ' に接続が必要です。
+[2017.05.13-08.39.37:323][518]LogBlueprint:Warning: [Compiler FlyingBP] 警告 [0663.57] Compile of FlyingBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 193 ms] (/Game/ThirdPersonBP/Blueprints/FlyingBP.FlyingBP)
+[2017.05.13-08.39.57:320][415]BlueprintLog: New page: FlyingBP をコンパイル
+[2017.05.13-08.39.58:267][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/FlyingBP" FILE="../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/FlyingBP.uasset" SILENT=true
+[2017.05.13-08.39.58:286][473]LogSavePackage: Save=13.30ms
+[2017.05.13-08.39.58:286][473]LogSavePackage: Moving '../../../../../Users/YuCaRi/Desktop/yuugen/Saved/FlyingBP25A400C846CDCD6FE889C48D8A7147EF.tmp' to '../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/FlyingBP.uasset'
+[2017.05.13-08.39.58:290][473]LogSavePackage:Display: Finished SavePackage ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Blueprints/FlyingBP.uasset
+[2017.05.13-08.40.00:790][598]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.13-08.40.00:804][598]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.40.00:804][598]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.13-08.40.00:804][598]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/14 2:40:00)
+[2017.05.13-08.40.00:804][598]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.13-08.40.00:826][598]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021389s)
+[2017.05.13-08.40.00:828][598]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.13-08.40.00:828][598]LogPlayLevel: PIE: World Init took: (0.002867s)
+[2017.05.13-08.40.00:829][598]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.024712s)
+[2017.05.13-08.40.00:867][598]LogInit: XAudio2 using 'スピーカー (USB PnP Sound Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.13-08.40.00:873][598]LogInit: FAudioDevice initialized.
+[2017.05.13-08.40.00:907][598]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.13-08.40.00:911][598]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2017.05.13-17.40.00
+[2017.05.13-08.40.00:912][598]LogWorld: Bringing up level for play took: 0.003099
+[2017.05.13-08.40.00:916][598]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.286のプレイ イン エディタの開始時間
+[2017.05.13-08.40.00:917][598]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.40.27:555][239]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.40.27:597][239]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.13-08.40.30:368][312]LogSavePackage: Save=149.17ms
+[2017.05.13-08.40.30:368][312]LogSavePackage: Moving '../../../../../Users/YuCaRi/Desktop/yuugen/Saved/ThirdPersonExampleMap2A4106014A55C7AFD01BDB8426BCD481.tmp' to '../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.13-08.40.30:374][312]LogSavePackage:Display: Finished SavePackage ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.13-08.40.30:630][312]LogSavePackage: Save=140.47ms
+[2017.05.13-08.40.30:630][312]LogSavePackage: Moving '../../../../../Users/YuCaRi/Desktop/yuugen/Saved/ThirdPersonExampleMap_BuiltDataCA70C37346A959E6163D7B95FCA241F1.tmp' to '../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.05.13-08.40.30:639][312]LogSavePackage:Display: Finished SavePackage ../../../../../Users/YuCaRi/Desktop/yuugen/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.05.13-08.40.35:579][623]Cmd: QUIT_EDITOR
+[2017.05.13-08.40.35:639][623]LogExit: Preparing to exit.
+[2017.05.13-08.40.36:298][623]LogDirectoryWatcher: A directory notification for 'C:/Users/YuCaRi/Desktop/yuugen/Content/' was aborted.
+[2017.05.13-08.40.36:329][623]LogExit: Editor shut down
+[2017.05.13-08.40.36:329][623]LogExit: Transaction tracking system shut down
+[2017.05.13-08.40.36:450][623]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.13-08.40.36:450][623]LogExit: Object subsystem successfully closed.
+[2017.05.13-08.40.36:464][623]LogD3D11RHI: Shutdown
+[2017.05.13-08.40.36:464][623]LogD3D11RHI: CleanupD3DDevice
+[2017.05.13-08.40.36:505][623]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.13-08.40.36:520][623]LogModuleManager: Shutting down and abandoning module BlueprintGraph (504)
+[2017.05.13-08.40.36:520][623]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (502)
+[2017.05.13-08.40.36:520][623]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2017.05.13-08.40.36:520][623]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (498)
+[2017.05.13-08.40.36:520][623]LogModuleManager: Shutting down and abandoning module CrashTracker (496)
+[2017.05.13-08.40.36:520][623]LogModuleManager: Shutting down and abandoning module SceneOutliner (494)
+[2017.05.13-08.40.36:520][623]LogModuleManager: Shutting down and abandoning module AddContentDialog (492)
+[2017.05.13-08.40.36:521][623]LogDirectoryWatcher: A directory notification for 'C:/UE4/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module WidgetCarousel (491)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module EditorWidgets (488)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module CollectionManager (486)
+[2017.05.13-08.40.36:522][623]LogDirectoryWatcher: A directory notification for 'C:/Users/YuCaRi/Desktop/yuugen/Content/Collections/' was aborted.
+[2017.05.13-08.40.36:522][623]LogDirectoryWatcher: A directory notification for 'C:/Users/YuCaRi/Desktop/yuugen/Content/Developers/YuCaRi/Collections/' was aborted.
+[2017.05.13-08.40.36:522][623]LogDirectoryWatcher: A directory notification for 'C:/Users/YuCaRi/Desktop/yuugen/Saved/Collections/' was aborted.
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module StatsViewer (484)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module FoliageEdit (482)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module LandscapeEditor (480)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (478)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module ActorPickerMode (476)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module GeometryMode (474)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module TextureAlignMode (472)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module BspMode (470)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module HardwareSurvey (468)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (466)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module AutomationWorker (464)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (462)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (460)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module PlacementMode (459)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (456)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (454)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module MfMediaFactory (452)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module MfMediaEditor (450)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (448)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (446)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (444)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module Media (443)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (440)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module CharacterAI (438)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module AudioCapture (436)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module SequenceRecorder (435)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module SmartSnapping (432)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module SessionServices (430)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module ViewportSnapping (428)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module ViewportInteraction (426)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module LogVisualizer (424)
+[2017.05.13-08.40.36:522][623]LogModuleManager: Shutting down and abandoning module IntroTutorials (422)
+[2017.05.13-08.40.36:523][623]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (421)
+[2017.05.13-08.40.36:523][623]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (418)
+[2017.05.13-08.40.36:523][623]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (416)
+[2017.05.13-08.40.36:523][623]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (414)
+[2017.05.13-08.40.36:523][623]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (412)
+[2017.05.13-08.40.36:523][623]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (411)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (408)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (406)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module InputBindingEditor (404)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module NiagaraEditor (402)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module MergeActors (400)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module SizeMap (398)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module TreeMap (396)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module ReferenceViewer (394)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (392)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module LocalizationService (391)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module HardwareTargeting (388)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (386)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module UndoHistory (384)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module UserFeedback (382)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2017.05.13-08.40.36:619][623]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2017.05.13-08.40.36:620][623]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2017.05.13-08.40.36:620][623]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2017.05.13-08.40.36:620][623]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2017.05.13-08.40.36:620][623]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2017.05.13-08.40.36:620][623]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2017.05.13-08.40.36:620][623]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2017.05.13-08.40.36:620][623]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2017.05.13-08.40.36:620][623]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2017.05.13-08.40.36:660][623]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2017.05.13-08.40.36:660][623]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2017.05.13-08.40.36:660][623]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2017.05.13-08.40.36:660][623]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2017.05.13-08.40.36:660][623]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2017.05.13-08.40.36:660][623]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2017.05.13-08.40.36:660][623]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2017.05.13-08.40.36:660][623]LogModuleManager: Shutting down and abandoning module AnimGraph (345)
+[2017.05.13-08.40.36:660][623]LogModuleManager: Shutting down and abandoning module Kismet (342)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module GraphEditor (340)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module ClassViewer (338)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module Toolbox (336)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module ModuleUI (334)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module MovieSceneTools (332)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module OutputLog (330)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module GammaUI (328)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module Documentation (326)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module Niagara (324)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (322)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module AnalyticsET (320)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module PortalServices (318)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module PortalRpc (316)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module MessagingRpc (314)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module AIModule (312)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module GameplayDebugger (311)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module AITestSuite (309)
+[2017.05.13-08.40.36:667][623]LogModuleManager: Shutting down and abandoning module ProfilerService (306)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module TaskGraph (304)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module SteamVRController (302)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module SteamVR (300)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (298)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (296)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module OculusLibrary (294)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module OculusInput (292)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (290)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (288)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module CableComponent (286)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (284)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (280)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module HTML5Networking (278)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module AlembicImporter (276)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module AlembicLibrary (275)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module GeometryCache (274)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (273)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (268)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module SuperSearch (267)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (264)
+[2017.05.13-08.40.36:912][623]LogModuleManager: Shutting down and abandoning module PluginBrowser (262)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (260)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module EpicSurvey (258)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (256)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module DesktopPlatform (255)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module UObjectPlugin (252)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (250)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (248)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module GitSourceControl (246)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module SourceControl (245)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (242)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (240)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (238)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module Paper2DEditor (236)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module MeshPaint (235)
+[2017.05.13-08.40.36:913][623]LogModuleManager: Shutting down and abandoning module LevelEditor (233)
+[2017.05.13-08.40.36:914][623]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (232)
+[2017.05.13-08.40.36:914][623]LogModuleManager: Shutting down and abandoning module MainFrame (230)
+[2017.05.13-08.40.36:914][623]LogModuleManager: Shutting down and abandoning module HotReload (229)
+[2017.05.13-08.40.36:915][623]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2017.05.13-08.40.36:915][623]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.05.13-08.40.36:915][623]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.05.13-08.40.36:915][623]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.05.13-08.40.36:915][623]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.05.13-08.40.37:015][623]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.05.13-08.40.37:133][623]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.05.13-08.40.37:133][623]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.05.13-08.40.37:133][623]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.05.13-08.40.37:133][623]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.05.13-08.40.37:133][623]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.05.13-08.40.37:133][623]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.05.13-08.40.37:133][623]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.05.13-08.40.37:135][623]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.05.13-08.40.37:135][623]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.05.13-08.40.37:135][623]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.05.13-08.40.37:136][623]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.05.13-08.40.37:139][623]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.05.13-08.40.37:139][623]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.05.13-08.40.37:139][623]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.05.13-08.40.37:139][623]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.05.13-08.40.37:139][623]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.05.13-08.40.37:139][623]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.05.13-08.40.37:291][623]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.13-08.40.37:291][623]LogDirectoryWatcher: A directory notification for '../../../../../Users/YuCaRi/Desktop/yuugen/Content/' was aborted.
+[2017.05.13-08.40.37:291][623]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.13-08.40.37:291][623]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.05.13-08.40.37:291][623]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.05.13-08.40.37:291][623]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.05.13-08.40.37:291][623]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.05.13-08.40.37:292][623]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.05.13-08.40.37:292][623]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.05.13-08.40.37:292][623]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.05.13-08.40.37:292][623]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.05.13-08.40.37:292][623]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.05.13-08.40.37:344][623]LogDerivedDataCache: Shutdown
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.05.13-08.40.37:344][623]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.13-08.40.37:345][623]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.13-08.40.37:345][623]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.13-08.40.37:345][623]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.13-08.40.37:345][623]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE00798B7-4F30-C19B-43C8-95851475A9A8%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.1-3348071%2B%2B%2BUE4%2BRelease-4.15&UserID=39c5196d4cc8d8e5dc86448cd4068f7e%7C8946633df60b49f39a7813cef32cd67b%7Cc26d3749-e4ed-4ded-bb4b-e8026a5ccf8b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.13-08.40.37:366][623]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.13-08.40.37:367][623]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.13-08.40.37:367][623]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.13-08.40.37:367][623]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.13-08.40.37:367][623]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.13-08.40.37:367][623]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.13-08.40.37:370][623]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.13-08.40.37:370][623]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.13-08.40.37:370][623]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.13-08.40.37:370][623]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.13-08.40.37:370][623]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.13-08.40.37:370][623]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.13-08.40.37:370][623]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.13-08.40.37:370][623]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.13-08.40.37:370][623]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.13-08.40.37:370][623]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.13-08.40.37:372][623]LogExit: Exiting.
+[2017.05.13-08.40.37:385][623]Log file closed, 05/13/17 17:40:37
