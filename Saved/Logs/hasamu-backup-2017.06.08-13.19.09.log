@@ -1,0 +1,1865 @@
+﻿Log file open, 05/26/17 11:05:56
+LogInit:Display: Running engine for game: hasamu
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1697318663) SRandInit(1697318663).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.414505
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3299760
+LogInit: Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): Feb 14 2017 02:04:14
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.26-02.06.01:151][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.26-02.06.01:151][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.26-02.06.01:435][  0]LogInit: Computer: 16DELL-184S
+[2017.05.26-02.06.01:435][  0]LogInit: User: 16148006S
+[2017.05.26-02.06.01:435][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.05.26-02.06.01:435][  0]LogInit: High frequency timer resolution =2.822877 MHz
+[2017.05.26-02.06.01:458][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.26-02.06.01:465][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.26-02.06.01:465][  0]LogMemory: Process Physical Memory: 262.81 MB used, 262.81 MB peak
+[2017.05.26-02.06.01:465][  0]LogMemory: Process Virtual Memory: 261.97 MB used, 261.97 MB peak
+[2017.05.26-02.06.01:465][  0]LogMemory: Physical Memory: 5078.84 MB used,  2986.66 MB free, 8065.49 MB total
+[2017.05.26-02.06.01:465][  0]LogMemory: Virtual Memory: 642.16 MB used,  2986.66 MB free, 134217728.00 MB total
+[2017.05.26-02.06.04:392][  0]LogTextLocalizationManager: No specific translations for ('ja-JP') exist, so ('ja') translations will be used.
+[2017.05.26-02.06.05:236][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_AssetPlayerBase:bIgnoreForRelevancyTest):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (319969718) Localized String: (真の場合、Relevant anim ノードはアニメーションで最も高いウェイトのものを無視します。
+このノード)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (319969718) Localized String: (真の場合、アニメーションで最も高いウェイトのものを無視するRelevant anim ノードは
+このノードを無視します)
+[2017.05.26-02.06.05:236][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:bLoop):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2133979316) Localized String: (再生が最後まで終わった後、ループ再生するようにしますか？)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2133979316) Localized String: (ループが最後まで到達した時に、アニメーションのループを継続するべきか？)
+[2017.05.26-02.06.05:236][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:X):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースで値を取得するX座標)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2060772590) Localized String: (ブレンドスペースでサンプリングするX座標)
+[2017.05.26-02.06.05:236][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Y):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースで値を取得するY座標)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1719607538) Localized String: (ブレンドスペースでサンプリングするY座標)
+[2017.05.26-02.06.05:236][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:Z):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースで値を取得するZ座標)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1728943471) Localized String: (ブレンドスペースでサンプリングするZ座標)
+[2017.05.26-02.06.05:236][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:BlendSpace):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1599043277) Localized String: (再生するブレンドスペースのアセット)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1599043277) Localized String: (再生するブレンド空間アセット)
+[2017.05.26-02.06.05:236][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_StateMachine:MaxTransitionsPerFrame):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (1567650430) Localized String: (このマシーンで1フレームあたりに同時に処理できるトランジションの最大数)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (1567650430) Localized String: (単一フレームでマシーンが「同時」に受け取れる遷移の最大数)
+[2017.05.26-02.06.05:236][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_BlendSpacePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/EditorTutorials/ja/EditorTutorials.locres) Source String Hash: (-1274923958) Localized String: (再生速度の倍率です。負の数値も使う事ができます。その場合逆再生になります。)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (再生レート乗数。アニメーションを逆再生する負の値にすることができます。)
+[2017.05.26-02.06.05:236][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:bLoopAnimation):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (2133979316) Localized String: (ループが最後まで到達した時に、アニメーションのループを継続するべきか？)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (2133979316) Localized String: (最後に到達した時にアニメーションのループを継続しますか？)
+[2017.05.26-02.06.05:236][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:UObjectToolTips, Key:AnimNode_SequencePlayer:PlayRate):
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/ToolTips/ja/ToolTips.locres) Source String Hash: (-1274923958) Localized String: (再生レート乗数。アニメーションを逆再生する負の値にすることができます。)
+Localization Resource: (C:/Program Files/Epic Games/UE_4.15/Engine/Content/Localization/Engine/ja/Engine.locres) Source String Hash: (-1274923958) Localized String: (再生速度の倍率です。負の数値も使う事ができます。その場合逆再生になります。)
+[2017.05.26-02.06.13:748][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.26-02.06.13:756][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2017.05.26-02.06.13:756][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.05.26-02.06.13:758][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.26-02.06.13:758][  0]LogD3D11RHI:       0/0/4032 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.26-02.06.13:758][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.26-02.06.13:795][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.26-02.06.13:795][  0]LogD3D11RHI:     GPU DeviceId: 0x166 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.26-02.06.13:795][  0]LogWindows: EnumDisplayDevices:
+[2017.05.26-02.06.13:795][  0]LogWindows:    0. 'Intel(R) HD Graphics 4000' (P:1 D:1)
+[2017.05.26-02.06.13:795][  0]LogWindows:    1. 'Intel(R) HD Graphics 4000' (P:0 D:0)
+[2017.05.26-02.06.13:795][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2017.05.26-02.06.13:795][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4000
+[2017.05.26-02.06.13:795][  0]LogD3D11RHI:   Driver Version: 10.18.10.4425 (internal:10.18.10.4425, unified:10.18.10.4425)
+[2017.05.26-02.06.13:795][  0]LogD3D11RHI:      Driver Date: 4-4-2016
+[2017.05.26-02.06.13:796][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2017.05.26-02.06.13:800][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.26-02.06.14:414][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2017.05.26-02.06.14:601][  0]LogShaderCompilers: Guid format shader working directory is -9 characters bigger than the processId version (../../../../../../Users/16148006S/Documents/UE4CraneProject/Intermediate/Shaders/WorkingDirectory/5828/).
+[2017.05.26-02.06.14:602][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/16148006S/AppData/Local/Temp/UnrealShaderWorkingDir/29C1B5A848A6C8DEAB1AA8ADF6CF4AEB/'.
+[2017.05.26-02.06.14:602][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.26-02.06.27:851][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.26-02.06.28:049][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.26-02.06.28:242][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.26-02.06.28:473][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.26-02.06.28:688][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.26-02.06.28:892][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.26-02.06.29:086][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.26-02.06.29:273][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.26-02.06.29:456][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.26-02.06.29:702][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.26-02.06.29:905][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.26-02.06.30:074][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.26-02.06.30:243][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.26-02.06.30:408][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.26-02.06.30:564][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.26-02.06.30:841][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.26-02.06.30:841][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.26-02.06.30:931][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.26-02.06.31:404][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.26-02.06.31:631][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.26-02.06.31:975][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.26-02.06.32:237][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.26-02.06.32:475][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.26-02.06.32:749][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.26-02.06.32:749][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.26-02.06.36:787][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.26-02.06.37:809][  0]LogDerivedDataCache: Loaded boot cache 1.01s 50MB C:/Users/16148006S/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.26-02.06.37:809][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/16148006S/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.26-02.06.37:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/16148006S/Documents/UE4CraneProject/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.26-02.06.37:809][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.26-02.06.37:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/16148006S/Documents/UE4CraneProject/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.26-02.06.37:809][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.26-02.06.37:980][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.26-02.06.37:995][  0]LogDerivedDataCache: Using Local data cache path C:/Users/16148006S/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.26-02.06.38:455][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.26-02.06.38:644][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.26-02.06.38:644][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.26-02.06.59:362][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.26-02.06.59:531][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.26-02.07.02:077][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.26-02.07.02:638][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.26-02.07.02:872][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.26-02.07.02:872][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.26-02.07.02:872][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.26-02.07.17:027][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: hasamu, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 671900762
+[2017.05.26-02.07.17:350][  0]LogAssetRegistry: FAssetRegistry took 0.0357 seconds to start up
+[2017.05.26-02.07.17:589][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.139594 seconds
+[2017.05.26-02.07.17:624][  0]LogUObjectArray: 32475 objects as part of root set at end of initial load.
+[2017.05.26-02.07.17:624][  0]LogUObjectAllocator: 7073360 out of 0 bytes used by permanent object pool.
+[2017.05.26-02.07.17:624][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.26-02.07.17:849][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.26-02.08.19:031][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.26-02.08.19:589][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.26-02.08.27:388][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.26-02.08.33:765][  0]SourceControl: 情報 ソースコントロールは無効です
+[2017.05.26-02.08.43:270][  0]LogEngine: Initializing Engine...
+[2017.05.26-02.08.43:314][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.26-02.08.46:963][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.26-02.08.47:277][  0]LogInit: XAudio2 using 'スピーカー (High Definition Audio デバイス)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.26-02.08.47:365][  0]LogInit: FAudioDevice initialized.
+[2017.05.26-02.08.47:373][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/16148006S/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.26-02.08.47:392][  0]LogInit: Texture streaming: Enabled
+[2017.05.26-02.08.48:437][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.26-02.08.50:707][  0]LogInit: Transaction tracking system initialized
+[2017.05.26-02.09.00:434][  0]BlueprintLog: New page: エディタの読み込み
+[2017.05.26-02.09.09:596][  0]LocalizationService: 情報 ローカライズのサービスが無効になりました
+[2017.05.26-02.09.18:034][  0]LogConsoleResponse:Display: 
+[2017.05.26-02.09.27:767][  0]LogFileCache: Scanning file cache for directory 'C:/Users/16148006S/Documents/UE4CraneProject/Content/' took 0.14s
+[2017.05.26-02.09.27:767][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.26-02.09.27:953][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.26-02.09.37:618][  0]Cmd: MAP LOAD FILE="../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.26-02.09.37:698][  0]LightingResults: New page: ライティングのビルド
+[2017.05.26-02.09.38:615][  0]MapCheck: New page: マップをチェック
+[2017.05.26-02.09.38:615][  0]LightingResults: New page: <何も選択されていません>
+[2017.05.26-02.09.42:272][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Audio/Explosion_Cue' が見つかりません
+[2017.05.26-02.09.42:286][  0]LogLinker:Warning: ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/PlayerShotWeapon.uasset のロード中にアセット '/Game/StarterContent/Audio/Explosion_Cue'  のファイルが見つかりません
+[2017.05.26-02.09.42:286][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/PlayerShotWeapon : アセットのファイルが見つかりません /Game/StarterContent/Audio/Explosion_Cue
+[2017.05.26-02.09.42:287][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Fire' が見つかりません
+[2017.05.26-02.09.42:287][  0]LogLinker:Warning: ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/PlayerShotWeapon.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Fire'  のファイルが見つかりません
+[2017.05.26-02.09.42:287][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/PlayerShotWeapon : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Fire
+[2017.05.26-02.09.42:314][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Fire' が見つかりません
+[2017.05.26-02.09.42:314][  0]LogLinker:Warning: ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/PlayerShotWeapon.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Fire'  のファイルが見つかりません
+[2017.05.26-02.09.42:314][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/PlayerShotWeapon : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Fire
+[2017.05.26-02.09.42:314][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Audio/Explosion_Cue' が見つかりません
+[2017.05.26-02.09.42:315][  0]LogLinker:Warning: ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/PlayerShotWeapon.uasset のロード中にアセット '/Game/StarterContent/Audio/Explosion_Cue'  のファイルが見つかりません
+[2017.05.26-02.09.42:315][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/PlayerShotWeapon : アセットのファイルが見つかりません /Game/StarterContent/Audio/Explosion_Cue
+[2017.05.26-02.09.42:316][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Audio/Explosion_Cue' が見つかりません
+[2017.05.26-02.09.42:317][  0]LogLinker:Warning: ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset のロード中にアセット '/Game/StarterContent/Audio/Explosion_Cue'  のファイルが見つかりません
+[2017.05.26-02.09.42:317][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : アセットのファイルが見つかりません /Game/StarterContent/Audio/Explosion_Cue
+[2017.05.26-02.09.42:317][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Fire' が見つかりません
+[2017.05.26-02.09.42:317][  0]LogLinker:Warning: ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Fire'  のファイルが見つかりません
+[2017.05.26-02.09.42:317][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Fire
+[2017.05.26-02.09.42:318][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Fire' が見つかりません
+[2017.05.26-02.09.42:318][  0]LogLinker:Warning: ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Fire'  のファイルが見つかりません
+[2017.05.26-02.09.42:318][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Fire
+[2017.05.26-02.09.42:318][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Audio/Explosion_Cue' が見つかりません
+[2017.05.26-02.09.42:319][  0]LogLinker:Warning: ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset のロード中にアセット '/Game/StarterContent/Audio/Explosion_Cue'  のファイルが見つかりません
+[2017.05.26-02.09.42:319][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : アセットのファイルが見つかりません /Game/StarterContent/Audio/Explosion_Cue
+[2017.05.26-02.09.42:353][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Particles/P_Fire' が見つかりません
+[2017.05.26-02.09.42:353][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Particles/P_Fire.P_Fire 参照元 ParticleSystem_GEN_VARIABLE
+[2017.05.26-02.09.42:354][  0]LogLinker:Warning: ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset のロード中にアセット '/Game/StarterContent/Particles/P_Fire'  のファイルが見つかりません
+[2017.05.26-02.09.42:354][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Particles/P_Fire.P_Fire 参照元 ParticleSystem_GEN_VARIABLE
+[2017.05.26-02.09.42:354][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : アセットのファイルが見つかりません /Game/StarterContent/Particles/P_Fire
+[2017.05.26-02.09.42:355][  0]LogLinker:Warning: ファイル '/Game/StarterContent/Audio/Explosion_Cue' が見つかりません
+[2017.05.26-02.09.42:355][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Audio/Explosion_Cue.Explosion_Cue 参照元 Audio_GEN_VARIABLE
+[2017.05.26-02.09.42:355][  0]LogLinker:Warning: ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset のロード中にアセット '/Game/StarterContent/Audio/Explosion_Cue'  のファイルが見つかりません
+[2017.05.26-02.09.42:355][  0]LoadErrors: 情報 ロードに失敗しました /Game/StarterContent/Audio/Explosion_Cue.Explosion_Cue 参照元 Audio_GEN_VARIABLE
+[2017.05.26-02.09.42:356][  0]LoadErrors:Error: エラー /Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter : アセットのファイルが見つかりません /Game/StarterContent/Audio/Explosion_Cue
+[2017.05.26-02.09.43:142][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプットアクション イベントは  インプットアクション Shot  に不明なアクション 'Shot'' を参照しています
+[2017.05.26-02.09.43:142][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプットアクション イベントは  インプットアクション ResetVR  に不明なアクション 'ResetVR'' を参照しています
+[2017.05.26-02.09.43:143][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis LookUpRate  に不明な軸 'LookUpRate' を参照しています
+[2017.05.26-02.09.43:143][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis TurnRate  に不明な軸 'TurnRate' を参照しています
+[2017.05.26-02.09.43:144][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプットアクション イベントは  インプットアクション Jump  に不明なアクション 'Jump'' を参照しています
+[2017.05.26-02.09.43:146][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis LookUp  に不明な軸 'LookUp' を参照しています
+[2017.05.26-02.09.43:147][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis Turn  に不明な軸 'Turn' を参照しています
+[2017.05.26-02.09.43:172][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 [0239.19] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 84 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.05.26-02.09.43:172][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 [0239.19] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.05.26-02.09.43:172][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 [0239.19] Compile of ThirdPersonCharacter successful, but with 9 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.05.26-02.09.43:255][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプットアクション イベントは  インプットアクション Shot  に不明なアクション 'Shot'' を参照しています
+[2017.05.26-02.09.43:255][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプットアクション イベントは  インプットアクション ResetVR  に不明なアクション 'ResetVR'' を参照しています
+[2017.05.26-02.09.43:256][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis LookUpRate  に不明な軸 'LookUpRate' を参照しています
+[2017.05.26-02.09.43:256][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis TurnRate  に不明な軸 'TurnRate' を参照しています
+[2017.05.26-02.09.43:257][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプットアクション イベントは  インプットアクション Jump  に不明なアクション 'Jump'' を参照しています
+[2017.05.26-02.09.43:257][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis LookUp  に不明な軸 'LookUp' を参照しています
+[2017.05.26-02.09.43:258][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 インプット軸イベントは  インプットAxis Turn  に不明な軸 'Turn' を参照しています
+[2017.05.26-02.09.43:289][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 [0239.30] Compile of ThirdPersonCharacter successful, but with 7 Warning(s) [in 51 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.05.26-02.09.43:289][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 [0239.30] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.05.26-02.09.43:289][  0]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] 警告 [0239.30] Compile of ThirdPersonCharacter successful, but with 9 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2017.05.26-02.09.48:542][  0]LogMaterial: Missing cached shader map for material Siro, compiling. 
+[2017.05.26-02.09.48:724][  0]LogTemp:Display: Added material ShaderMap 0x000002D8605B7C80 with Material 0x000002D85F808280 to ShaderMapsBeingCompiled
+[2017.05.26-02.09.49:516][  0]LogTemp:Display: Kicking off shader compilation for Siro, GameThreadShaderMap 0x000002D8605B7C80
+[2017.05.26-02.09.51:200][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.26-02.09.53:578][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.26-02.09.53:965][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.26-02.09.54:189][  0]MapCheck: 情報 マップチェックが完了: 0 エラー、 0 警告、完了に 193.146ミリ秒かかりました。
+[2017.05.26-02.09.54:189][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 16.613
+[2017.05.26-02.10.07:970][  0]LogCollectionManager: Loaded 0 collections in 0.003360 seconds
+[2017.05.26-02.10.08:927][  0]LogFileCache: Scanning file cache for directory 'C:/Users/16148006S/Documents/UE4CraneProject/Saved/Collections/' took 0.02s
+[2017.05.26-02.10.08:927][  0]LogFileCache: Scanning file cache for directory 'C:/Users/16148006S/Documents/UE4CraneProject/Content/Developers/16148006S/Collections/' took 0.02s
+[2017.05.26-02.10.08:927][  0]LogFileCache: Scanning file cache for directory 'C:/Users/16148006S/Documents/UE4CraneProject/Content/Collections/' took 0.02s
+[2017.05.26-02.10.08:927][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.26-02.10.09:028][  0]LogContentBrowser: Native class hierarchy populated in 0.0768 seconds. Added 2244 classes and 450 folders.
+[2017.05.26-02.10.09:381][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.26-02.10.09:402][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.020 s
+[2017.05.26-02.10.09:683][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.05.26-02.10.11:612][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.05.26-02.10.12:833][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2017.05.26-02.10.14:799][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.26-02.10.15:413][  0]LogUObjectGlobals:Warning: オブジェクト 'Class なし.' が見つかりませんでした
+[2017.05.26-02.10.16:189][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2017.05.26-02.10.16:193][  0]LogLoad: (Engine Initialization) Total time: 272.21 seconds
+[2017.05.26-02.10.16:193][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 2.81 seconds
+[2017.05.26-02.10.16:193][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.26-02.10.16:193][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.26-02.10.17:646][  0]LogOcInput: OculusInput pre-init called
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報 On branch master
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報 Your branch is up-to-date with 'origin/master'.
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報 Changes not staged for commit:
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報   (use "git add/rm <file>..." to update what will be committed)
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報 	modified:   Intermediate/Config/CoalescedSourceConfigs/EditorSettings.ini
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報 	modified:   Saved/Config/Windows/Editor.ini
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報 	modified:   Saved/Config/Windows/Engine.ini
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報 	deleted:    Saved/Logs/hasamu-backup-2017.05.24-13.57.51.log
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報 	modified:   Saved/Logs/hasamu.log
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報 Untracked files:
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報   (use "git add <file>..." to include in what will be committed)
+[2017.05.26-02.10.19:600][  0]SourceControl: 情報 	Saved/Logs/UE4CC-Windows-917C752E4FE18E608BE63C9F0884D8A1/
+[2017.05.26-02.10.19:601][  0]SourceControl: 情報 	Saved/Logs/UE4CC-Windows-DEB1ACA2499586137287DAACDAEBA386/
+[2017.05.26-02.10.19:601][  0]SourceControl: 情報 	Saved/Logs/hasamu-backup-2017.05.26-11.05.56.log
+[2017.05.26-02.10.19:601][  0]SourceControl: 情報 	Saved/Logs/hasamu_2.log
+[2017.05.26-02.10.19:601][  0]SourceControl: 情報 no changes added to commit (use "git add" and/or "git commit -a")
+[2017.05.26-02.10.19:753][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.26-02.10.21:534][  0]LogSlate: Took 0.055060 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.26-02.10.22:469][  0]LogSlate: Took 0.814673 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.05.26-02.10.22:734][  0]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.26-02.10.23:295][  0]LogSlate: Took 0.032166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.26-02.10.30:419][  0]LogRenderer: Reallocating scene render targets to support 604x372 NumSamples 1 (Frame:2).
+[2017.05.26-02.10.33:957][  1]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.26-02.10.39:706][  7]LogAssetRegistry: Asset discovery search completed in 202.3871 seconds
+[2017.05.26-02.10.39:706][  7]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
+[2017.05.26-02.10.39:706][  7]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2017.05.26-02.11.12:103][ 97]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.26-02.11.48:604][205]LogTemp:Display: Finished compile of shader map 0x000002D8605B7C80
+[2017.05.26-02.11.48:604][205]LogTemp:Display: Shader map Siro complete, GameThreadShaderMap 0x000002D8605B7C80, marking material Siro as finished
+[2017.05.26-02.11.48:604][205]LogTemp:Display: Marking material as finished 0x000002D85F808280
+[2017.05.26-02.30.59:987][704]LogSlate: Took 0.000658 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.26-02.31.00:759][704]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.26-02.31.01:813][704]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0020 seconds. Added 112 classes and 0 folders.
+[2017.05.26-02.31.04:388][704]LogSlate: Took 0.000488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.26-02.31.07:318][735]LogSlate: Took 0.000693 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.26-02.31.41:638][524]BlueprintLog: New page: EnemyCharacter をコンパイル
+[2017.05.26-02.32.11:616][698]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.166
+[2017.05.26-02.32.11:621][698]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/EnemyCharacter] ([1] browsable assets)...
+[2017.05.26-02.32.11:709][698]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/EnemyCharacter.EnemyCharacter]
+[2017.05.26-02.32.11:709][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/EnemyCharacter]
+[2017.05.26-02.32.11:960][698]LogSavePackage: Save=194.27ms
+[2017.05.26-02.32.11:961][698]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/EnemyCharacter_Auto1015734B54E4211D8ED8CD9A2BA46F096.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/EnemyCharacter_Auto1.uasset'
+[2017.05.26-02.32.11:972][698]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/EnemyCharacter_Auto1.uasset
+[2017.05.26-02.32.11:972][698]LogFileHelpers: Auto-saving content packages took 0.355
+[2017.05.26-02.36.08:805][604]LogSlate: Took 0.032952 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.05.26-02.36.45:254][207]BlueprintLog: New page: EnemyCharacter をコンパイル
+[2017.05.26-02.37.10:443][670]BlueprintLog: New page: EnemyCharacter をコンパイル
+[2017.05.26-02.37.38:652][446]BlueprintLog: New page: EnemySpawnPoint をコンパイル
+[2017.05.26-02.37.39:987][485]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/EnemySpawnPoint" FILE="../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/EnemySpawnPoint.uasset" SILENT=true
+[2017.05.26-02.37.40:091][485]LogSavePackage: Save=77.27ms
+[2017.05.26-02.37.40:091][485]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/EnemySpawnPoint84C2938B4DEAB788F102EA85AB3A5357.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/EnemySpawnPoint.uasset'
+[2017.05.26-02.37.40:097][485]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/EnemySpawnPoint.uasset
+[2017.05.26-02.38.00:473][843]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.05.26-02.38.30:538][334]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.05.26-02.39.01:968][767]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2017.05.26-02.41.09:707][700]LogRenderer: Reallocating scene render targets to support 900x464 NumSamples 1 (Frame:4859).
+[2017.05.26-02.42.17:922][128]LogSavePackage: Save=673.38ms
+[2017.05.26-02.42.17:923][128]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/ThirdPersonExampleMap_Auto240B6D6234E21CAB6283413B721EFA485.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2017.05.26-02.42.17:926][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap
+[2017.05.26-02.42.17:970][128]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.252
+[2017.05.26-02.42.17:970][128]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.252
+[2017.05.26-02.42.17:981][128]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPersonBP/EnemyCharacter] ([1] browsable assets)...
+[2017.05.26-02.42.18:189][128]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPersonBP/EnemyCharacter.EnemyCharacter]
+[2017.05.26-02.42.18:189][128]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/EnemyCharacter]
+[2017.05.26-02.42.18:635][128]LogSavePackage: Save=118.35ms
+[2017.05.26-02.42.18:635][128]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/EnemyCharacter_Auto290DE02304E5CFF57AC57299DEFB7E1BB.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/EnemyCharacter_Auto2.uasset'
+[2017.05.26-02.42.18:640][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/EnemyCharacter_Auto2.uasset
+[2017.05.26-02.42.18:641][128]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/TriggerBox_Blueprint] ([1] browsable assets)...
+[2017.05.26-02.42.18:641][128]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/TriggerBox_Blueprint]
+[2017.05.26-02.42.18:681][128]LogSavePackage: Save=35.87ms
+[2017.05.26-02.42.18:681][128]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/TriggerBox_Blueprint_Auto2A3BE4C444F4F91F77942198E850536A0.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/TriggerBox_Blueprint_Auto2.uasset'
+[2017.05.26-02.42.18:683][128]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/TriggerBox_Blueprint_Auto2.uasset
+[2017.05.26-02.42.18:684][128]LogFileHelpers: Auto-saving content packages took 0.704
+[2017.05.26-02.43.27:265][368]BlueprintLog: New page: TriggerBox_Blueprint をコンパイル
+[2017.05.26-02.43.37:877][541]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.26-02.43.37:916][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-02.43.37:916][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.26-02.43.37:917][541]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/26 20:43:37)
+[2017.05.26-02.43.37:917][541]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.26-02.43.37:960][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042942s)
+[2017.05.26-02.43.37:963][541]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.26-02.43.37:964][541]LogPlayLevel: PIE: World Init took: (0.003308s)
+[2017.05.26-02.43.37:964][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.047059s)
+[2017.05.26-02.43.38:073][541]LogInit: XAudio2 using 'スピーカー (High Definition Audio デバイス)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.26-02.43.38:090][541]LogInit: FAudioDevice initialized.
+[2017.05.26-02.43.38:165][541]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.26-02.43.38:170][541]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.05.26-11.43.38
+[2017.05.26-02.43.38:225][541]LogWorld: Bringing up level for play took: 0.057498
+[2017.05.26-02.43.38:337][541]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 11 classes and 0 folders.
+[2017.05.26-02.43.38:341][541]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.181のプレイ イン エディタの開始時間
+[2017.05.26-02.43.38:342][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-02.43.38:381][541]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.38:641][542]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.38:651][543]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.38:790][544]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.38:931][545]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.38:995][546]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:059][547]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:118][548]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:201][549]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:264][550]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:319][551]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:384][552]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:458][553]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:534][554]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:598][555]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:655][556]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:734][557]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:794][558]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:881][559]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.39:949][560]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:015][561]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:083][562]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:133][563]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:193][564]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:244][565]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:318][566]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:362][567]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:418][568]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:476][569]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:536][570]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:582][571]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:641][572]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:703][573]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:754][574]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:818][575]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:873][576]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:927][577]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.40:983][578]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:050][579]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:093][580]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:171][581]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:229][582]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:300][583]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:345][584]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:411][585]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:470][586]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:549][587]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:624][588]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:702][589]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:772][590]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:821][591]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:880][592]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:943][593]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.41:993][594]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:052][595]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:113][596]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:184][597]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:295][598]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:419][599]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:507][600]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:563][601]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:626][602]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:681][603]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:748][604]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:803][605]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:853][606]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:909][607]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.42:972][608]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:035][609]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:111][610]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:189][611]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:281][612]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:364][613]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:443][614]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:502][615]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:559][616]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:635][617]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:691][618]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:775][619]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:836][620]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:899][621]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.43:970][622]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:040][623]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:110][624]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:172][625]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:236][626]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:305][627]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:375][628]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:446][629]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:507][630]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:565][631]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:642][632]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:712][633]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:784][634]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:845][635]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:922][636]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.44:980][637]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:068][638]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:136][639]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:210][640]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:285][641]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:344][642]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:415][643]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:497][644]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:559][645]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:623][646]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:702][647]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:775][648]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:847][649]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:906][650]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.45:980][651]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:051][652]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:106][653]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:191][654]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:245][655]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:326][656]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:390][657]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:473][658]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:534][659]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:593][660]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:672][661]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:730][662]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:816][663]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:881][664]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.46:939][665]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:018][666]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:073][667]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:146][668]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:212][669]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:277][670]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:346][671]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:432][672]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:497][673]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:559][674]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:625][675]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:697][676]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:767][677]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:845][678]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:895][679]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.47:967][680]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:039][681]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:118][682]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:181][683]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:238][684]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:308][685]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:371][686]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:450][687]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:505][688]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:571][689]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:640][690]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:717][691]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:793][692]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:856][693]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:911][694]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.48:981][695]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:069][696]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:132][697]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:197][698]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:250][699]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:297][700]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:365][701]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:448][702]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:511][703]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:577][704]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:641][705]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:715][706]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:792][707]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:855][708]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:920][709]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.49:982][710]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:049][711]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:132][712]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:199][713]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:263][714]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:328][715]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:412][716]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:483][717]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:544][718]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:600][719]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:670][720]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:754][721]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:829][722]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:885][723]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.50:949][724]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:011][725]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:098][726]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:168][727]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:225][728]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:292][729]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:362][730]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:439][731]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:508][732]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:569][733]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:631][734]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:705][735]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:782][736]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:855][737]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:918][738]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.51:975][739]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.52:053][740]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.52:123][741]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.52:195][742]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.52:260][743]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.52:324][744]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.52:395][745]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.52:463][746]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.52:536][747]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.52:599][748]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.52:657][749]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.52:735][750]LogBlueprintUserMessages: [GameUI_C_0] 
+[2017.05.26-02.43.52:806][751]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-02.43.53:180][751]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-02.44.17:067][ 68]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.26-02.44.17:125][ 68]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-02.44.17:126][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.26-02.44.17:126][ 68]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/26 20:44:17)
+[2017.05.26-02.44.17:127][ 68]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.26-02.44.17:263][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.136556s)
+[2017.05.26-02.44.17:264][ 68]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.26-02.44.17:265][ 68]LogPlayLevel: PIE: World Init took: (0.001281s)
+[2017.05.26-02.44.17:265][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.138266s)
+[2017.05.26-02.44.17:356][ 68]LogInit: XAudio2 using 'スピーカー (High Definition Audio デバイス)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.26-02.44.17:371][ 68]LogInit: FAudioDevice initialized.
+[2017.05.26-02.44.17:430][ 68]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.26-02.44.17:433][ 68]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.05.26-11.44.17
+[2017.05.26-02.44.17:433][ 68]LogWorld: Bringing up level for play took: 0.002250
+[2017.05.26-02.44.17:436][ 68]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.276のプレイ イン エディタの開始時間
+[2017.05.26-02.44.17:437][ 68]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-02.44.17:445][ 68]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.17:641][ 69]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.17:653][ 70]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.17:848][ 71]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.17:998][ 72]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:052][ 73]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:117][ 74]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:184][ 75]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:232][ 76]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:280][ 77]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:375][ 78]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:426][ 79]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:489][ 80]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:558][ 81]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:622][ 82]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:707][ 83]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:770][ 84]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:827][ 85]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:895][ 86]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.18:957][ 87]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:031][ 88]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:102][ 89]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:165][ 90]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:225][ 91]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:282][ 92]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:327][ 93]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:390][ 94]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:444][ 95]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:515][ 96]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:552][ 97]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:620][ 98]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:671][ 99]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:734][100]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:797][101]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:851][102]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:912][103]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.19:981][104]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.20:095][105]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.20:207][106]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.20:297][107]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.20:368][108]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.20:424][109]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.20:501][110]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.20:558][111]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.20:620][112]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.20:674][113]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.20:736][114]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.20:814][115]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.20:867][116]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.20:923][117]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:000][118]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:069][119]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:128][120]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:189][121]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:250][122]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:322][123]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:397][124]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:461][125]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:523][126]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:617][127]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:712][128]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:784][129]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:840][130]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:916][131]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.21:983][132]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.22:064][133]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.22:141][134]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.22:213][135]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.22:273][136]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.22:349][137]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.22:438][138]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.22:501][139]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.22:568][140]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.22:636][141]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.22:730][142]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.22:795][143]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.22:859][144]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.22:920][145]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:036][146]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:121][147]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:186][148]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:249][149]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:335][150]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:400][151]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:457][152]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:529][153]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:588][154]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:680][155]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:748][156]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:811][157]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:878][158]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.23:953][159]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:025][160]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:088][161]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:152][162]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:210][163]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:283][164]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:371][165]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:428][166]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:491][167]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:555][168]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:625][169]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:710][170]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:773][171]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:835][172]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:898][173]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.24:989][174]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.25:053][175]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.25:114][176]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.25:178][177]LogBlueprintUserMessages: [GameUI_C_1] 
+[2017.05.26-02.44.25:226][178]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-02.44.25:621][178]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-02.45.07:371][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.26-02.45.07:811][397]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.26-02.45.12:112][397]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.05.26-02.45.12:113][397]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_TriggerBox_Blueprint_C_133' or package '/Engine/Transient'.
+[2017.05.26-02.45.12:113][397]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_TriggerBox_Blueprint_C_1' or package '/Engine/Transient'.
+[2017.05.26-02.45.12:125][397]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.05.26-02.45.12:126][397]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.05.26-02.45.12:126][397]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_TriggerBox_Blueprint_C_0' or package '/Engine/Transient'.
+[2017.05.26-02.45.12:126][397]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_TriggerBox_Blueprint_C_127' or package '/Engine/Transient'.
+[2017.05.26-02.45.12:126][397]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_TriggerBox_Blueprint_C_138' or package '/Engine/Transient'.
+[2017.05.26-02.45.12:126][397]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_TriggerBox_Blueprint_C_137' or package '/Engine/Transient'.
+[2017.05.26-02.46.46:385][468]LogLinker: ファイル '/Game/StarterContent/Maps/Minimal_Default' が見つかりません
+[2017.05.26-02.46.46:386][468]LogLinker: ファイル '/Game/StarterContent/Maps/Minimal_Default' が見つかりません
+[2017.05.26-02.46.46:387][468]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.TriggerBox_8''
+[2017.05.26-02.46.46:407][468]LogLinker: ファイル '/Game/StarterContent/Blueprints/Sphere_Blueprint' が見つかりません
+[2017.05.26-02.46.46:407][468]LogLinker: ファイル '/Game/StarterContent/Blueprints/Sphere_Blueprint' が見つかりません
+[2017.05.26-02.46.46:407][468]LogProperty:Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'/Game/StarterContent/Blueprints/Sphere_Blueprint.Sphere_Blueprint_C''
+[2017.05.26-02.46.46:414][468]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/StarterContent/Blueprints/Sphere_Blueprint.Sphere_Blueprint_C',MemberName="Score",MemberGuid=A09457834BD8AAB67CB72B8A202C3FCE)'
+[2017.05.26-02.46.46:429][468]LogBlueprint:Warning: [ThirdPersonExampleMap] 'Score' variable not found. Base class was probably changed.
+[2017.05.26-02.46.46:429][468]LogBlueprint:Warning: [ThirdPersonExampleMap] 'Score' variable not found. Base class was probably changed.
+[2017.05.26-02.46.46:429][468]LogBlueprint:Warning: [ThirdPersonExampleMap] 'Score' variable not found. Base class was probably changed.
+[2017.05.26-02.46.46:429][468]LogBlueprint:Warning: [ThirdPersonExampleMap] 'Score' variable not found. Base class was probably changed.
+[2017.05.26-02.46.56:838][590]LogProperty:Warning: ObjectProperty /Script/BlueprintGraph.K2Node_ActorBoundEvent:EventOwner: unresolved reference to 'TriggerBox'/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.TriggerBox_8''
+[2017.05.26-02.46.56:844][590]LogProperty:Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'/Game/StarterContent/Blueprints/Sphere_Blueprint.Sphere_Blueprint_C''
+[2017.05.26-02.46.56:850][590]LogProperty:Warning: ObjectProperty /Script/Engine.MemberReference:MemberParent: unresolved reference to 'BlueprintGeneratedClass'/Game/StarterContent/Blueprints/Sphere_Blueprint.Sphere_Blueprint_C',MemberName="Score",MemberGuid=A09457834BD8AAB67CB72B8A202C3FCE)'
+[2017.05.26-02.46.56:862][590]LogBlueprint:Warning: [ThirdPersonExampleMap] 'Score' variable not found. Base class was probably changed.
+[2017.05.26-02.46.56:862][590]LogBlueprint:Warning: [ThirdPersonExampleMap] 'Score' variable not found. Base class was probably changed.
+[2017.05.26-02.46.56:862][590]LogBlueprint:Warning: [ThirdPersonExampleMap] 'Score' variable not found. Base class was probably changed.
+[2017.05.26-02.46.56:862][590]LogBlueprint:Warning: [ThirdPersonExampleMap] 'Score' variable not found. Base class was probably changed.
+[2017.05.26-02.47.22:438][859]LogBlueprint:Warning: [ThirdPersonExampleMap] 'Score' variable not found. Base class was probably changed.
+[2017.05.26-02.48.50:406][815]BlueprintLog: New page: ThirdPersonExampleMap をコンパイル
+[2017.05.26-02.48.50:477][815]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] エラー 結合イベントノード  OnActorBeginOverlap (なし)  のオブジェクトが見つかりませんでした
+[2017.05.26-02.48.51:324][815]BlueprintEditorCompileResults:Error: エラー 結合イベントノード  OnActorBeginOverlap (なし)  のオブジェクトが見つかりませんでした
+[2017.05.26-02.48.51:325][815]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] 警告 [2587.34] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 918 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.05.26-02.49.53:374][200]BlueprintLog: New page: ThirdPersonExampleMap をコンパイル
+[2017.05.26-02.49.53:395][200]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] エラー 結合イベントノード  OnActorBeginOverlap (なし)  のオブジェクトが見つかりませんでした
+[2017.05.26-02.49.54:067][200]BlueprintEditorCompileResults:Error: エラー 結合イベントノード  OnActorBeginOverlap (なし)  のオブジェクトが見つかりませんでした
+[2017.05.26-02.49.54:067][200]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] 警告 [2650.08] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 692 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.05.26-02.50.59:291][904]BlueprintLog: New page: ThirdPersonExampleMap をコンパイル
+[2017.05.26-02.50.59:321][904]LogBlueprint:Error: [Compiler PersistentLevel.ThirdPersonExampleMap] エラー 結合イベントノード  OnActorBeginOverlap (なし)  のオブジェクトが見つかりませんでした
+[2017.05.26-02.51.00:164][904]BlueprintEditorCompileResults:Error: エラー 結合イベントノード  OnActorBeginOverlap (なし)  のオブジェクトが見つかりませんでした
+[2017.05.26-02.51.00:165][904]LogBlueprint:Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] 警告 [2716.18] Compile of PersistentLevel.ThirdPersonExampleMap failed. 1 Fatal Issue(s) 0 Warning(s) [in 873 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2017.05.26-02.51.56:730][466]LogEditorTransaction: Undo ノードを追加
+[2017.05.26-02.53.08:052][ 18]LogSavePackage: Save=887.57ms
+[2017.05.26-02.53.08:053][ 18]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/ThirdPersonExampleMap_Auto3E83558F0405ECEB204497F90B3811830.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap'
+[2017.05.26-02.53.08:063][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto3.umap
+[2017.05.26-02.53.08:075][ 18]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 1.434
+[2017.05.26-02.53.08:076][ 18]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.434
+[2017.05.26-02.59.45:117][528]BlueprintLog: New page: ThirdPersonExampleMap をコンパイル
+[2017.05.26-03.01.02:548][422]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.26-03.01.02:605][422]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.01.02:606][422]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.26-03.01.02:606][422]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/26 21:01:02)
+[2017.05.26-03.01.02:606][422]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.26-03.01.02:661][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054652s)
+[2017.05.26-03.01.02:664][422]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.26-03.01.02:665][422]LogPlayLevel: PIE: World Init took: (0.003890s)
+[2017.05.26-03.01.02:665][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.059069s)
+[2017.05.26-03.01.02:764][422]LogInit: XAudio2 using 'スピーカー (High Definition Audio デバイス)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.26-03.01.02:785][422]LogInit: FAudioDevice initialized.
+[2017.05.26-03.01.02:825][422]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.26-03.01.02:829][422]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.05.26-12.01.02
+[2017.05.26-03.01.02:829][422]LogWorld: Bringing up level for play took: 0.003535
+[2017.05.26-03.01.02:834][422]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.327のプレイ イン エディタの開始時間
+[2017.05.26-03.01.02:835][422]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.01.02:848][422]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.03:172][423]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.03:304][424]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.03:324][425]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.03:375][426]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.03:450][427]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.03:527][428]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.03:585][429]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.03:679][430]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.03:776][431]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.03:842][432]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.03:902][433]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.03:962][434]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:039][435]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:096][436]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:173][437]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:231][438]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:293][439]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:368][440]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:424][441]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:492][442]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:558][443]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:616][444]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:674][445]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:728][446]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:784][447]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:836][448]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:879][449]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:925][450]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.04:996][451]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:032][452]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:088][453]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:145][454]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:204][455]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:368][456]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:434][457]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:455][458]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:472][459]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:509][460]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:619][461]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:646][462]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:698][463]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:769][464]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:892][465]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.05:955][466]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:019][467]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:071][468]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:127][469]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:183][470]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:245][471]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:300][472]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:371][473]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:471][474]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:558][475]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:629][476]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:702][477]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:747][478]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:810][479]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:888][480]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.06:951][481]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:009][482]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:073][483]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:155][484]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:212][485]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:274][486]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:339][487]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:400][488]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:469][489]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:547][490]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:609][491]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:664][492]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:729][493]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:800][494]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:867][495]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.07:938][496]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:000][497]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:061][498]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:134][499]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:205][500]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:270][501]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:329][502]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:392][503]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:463][504]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:532][505]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:596][506]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:657][507]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:736][508]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:797][509]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:882][510]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.08:948][511]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:018][512]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:092][513]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:145][514]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:218][515]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:289][516]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:362][517]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:426][518]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:491][519]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:569][520]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:637][521]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:695][522]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:769][523]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:832][524]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:904][525]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.09:972][526]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:047][527]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:101][528]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:175][529]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:258][530]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:320][531]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:377][532]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:449][533]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:509][534]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:593][535]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:660][536]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:723][537]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:785][538]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:858][539]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.10:939][540]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:002][541]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:061][542]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:127][543]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:208][544]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:280][545]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:352][546]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:406][547]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:478][548]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:538][549]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:625][550]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:691][551]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:756][552]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:822][553]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:881][554]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.11:969][555]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:034][556]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:100][557]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:166][558]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:232][559]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:312][560]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:378][561]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:438][562]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:498][563]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:577][564]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:649][565]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:713][566]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:779][567]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:843][568]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:916][569]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.12:984][570]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:053][571]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:116][572]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:174][573]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:253][574]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:327][575]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:389][576]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:449][577]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:520][578]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:594][579]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:667][580]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:732][581]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:786][582]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:868][583]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:934][584]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.13:999][585]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:063][586]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:129][587]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:200][588]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:273][589]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:347][590]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:412][591]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:477][592]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:546][593]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:610][594]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:686][595]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:742][596]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:810][597]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:882][598]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.14:960][599]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:019][600]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:091][601]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:150][602]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:228][603]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:300][604]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:359][605]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:431][606]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:489][607]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:559][608]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:639][609]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:698][610]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:771][611]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:829][612]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:902][613]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.15:981][614]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:046][615]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:108][616]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:167][617]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:244][618]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:300][619]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:380][620]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:439][621]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:502][622]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:581][623]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:645][624]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:716][625]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:781][626]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:845][627]LogBlueprintUserMessages: [GameUI_C_2] 
+[2017.05.26-03.01.16:906][628]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.01.17:251][628]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.02.12:793][408]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.26-03.02.12:866][408]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.02.12:866][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.26-03.02.12:866][408]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/26 21:02:12)
+[2017.05.26-03.02.12:867][408]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.26-03.02.12:926][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059231s)
+[2017.05.26-03.02.12:928][408]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.26-03.02.12:929][408]LogPlayLevel: PIE: World Init took: (0.003582s)
+[2017.05.26-03.02.12:930][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.063567s)
+[2017.05.26-03.02.13:055][408]LogInit: XAudio2 using 'スピーカー (High Definition Audio デバイス)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.26-03.02.13:076][408]LogInit: FAudioDevice initialized.
+[2017.05.26-03.02.13:114][408]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.26-03.02.13:118][408]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.05.26-12.02.13
+[2017.05.26-03.02.13:120][408]LogWorld: Bringing up level for play took: 0.004616
+[2017.05.26-03.02.13:126][408]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.034のプレイ イン エディタの開始時間
+[2017.05.26-03.02.13:127][408]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.02.13:141][408]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.13:576][409]LogCharacterMovement:Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.096914 > MaxSimulationTimeStep (0.050) for 'EnemyCharacter_2', movement 'Walking'
+[2017.05.26-03.02.13:588][409]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.13:628][410]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.13:649][411]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.13:672][412]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.13:850][413]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.13:901][414]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.13:990][415]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:051][416]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:107][417]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:173][418]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:242][419]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:311][420]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:386][421]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:445][422]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:508][423]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:566][424]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:643][425]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:705][426]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:768][427]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:824][428]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:905][429]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.14:955][430]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:005][431]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:082][432]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:113][433]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:169][434]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:232][435]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:308][436]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:370][437]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:434][438]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:496][439]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:554][440]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:616][441]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:670][442]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:732][443]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:795][444]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:867][445]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:929][446]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.15:991][447]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:048][448]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:110][449]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:168][450]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:227][451]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:284][452]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:355][453]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:425][454]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:560][455]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:664][456]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:720][457]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:777][458]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:839][459]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:895][460]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.16:973][461]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.17:037][462]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.17:106][463]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.17:220][464]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.17:318][465]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.17:403][466]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.17:475][467]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.17:544][468]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.17:607][469]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.17:678][470]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.17:738][471]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.17:798][472]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.17:890][473]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.17:947][474]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:029][475]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:090][476]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:165][477]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:238][478]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:306][479]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:354][480]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:443][481]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:479][482]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:549][483]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:623][484]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:696][485]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:753][486]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:833][487]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:901][488]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.18:958][489]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.19:031][490]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.19:096][491]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.19:167][492]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.19:231][493]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.19:305][494]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.19:370][495]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.19:430][496]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.19:501][497]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.19:571][498]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.19:641][499]LogBlueprintUserMessages: [GameUI_C_3] 
+[2017.05.26-03.02.19:696][500]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.02.21:117][500]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.02.34:891][667]LogEditorViewport: Clicking on Actor (LMB): EnemyCharacter_C (EnemyCharacter)
+[2017.05.26-03.02.36:122][681]Cmd: DELETE
+[2017.05.26-03.02.36:122][681]Cmd: ACTOR DELETE
+[2017.05.26-03.02.36:410][681]LogEditorActor: Deleted Actor: EnemyCharacter_C
+[2017.05.26-03.02.36:531][681]LogEditorActor: Deleted 1 Actors (0.139 secs)
+[2017.05.26-03.03.50:410][233]LogSavePackage: Save=226.28ms
+[2017.05.26-03.03.50:410][233]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/ThirdPersonExampleMap_Auto49D53F6C040FFF5739919A1A60F042D71.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap'
+[2017.05.26-03.03.50:415][233]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto4.umap
+[2017.05.26-03.03.50:661][233]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.599
+[2017.05.26-03.03.50:662][233]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.599
+[2017.05.26-03.46.17:894][418]BlueprintLog: New page: ThirdPersonExampleMap をコンパイル
+[2017.05.26-03.47.24:715][160]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.26-03.47.24:787][160]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.47.24:787][160]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.26-03.47.24:787][160]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/26 21:47:24)
+[2017.05.26-03.47.24:787][160]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.26-03.47.25:014][160]LogPlayLevel: PIE: StaticDuplicateObject took: (0.226751s)
+[2017.05.26-03.47.25:016][160]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.26-03.47.25:016][160]LogPlayLevel: PIE: World Init took: (0.002335s)
+[2017.05.26-03.47.25:017][160]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.229850s)
+[2017.05.26-03.47.25:104][160]LogInit: XAudio2 using 'スピーカー (High Definition Audio デバイス)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.26-03.47.25:121][160]LogInit: FAudioDevice initialized.
+[2017.05.26-03.47.25:157][160]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.26-03.47.25:161][160]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.05.26-12.47.25
+[2017.05.26-03.47.25:162][160]LogWorld: Bringing up level for play took: 0.003439
+[2017.05.26-03.47.25:168][160]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.016のプレイ イン エディタの開始時間
+[2017.05.26-03.47.25:168][160]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.47.25:181][160]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.25:635][161]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.25:667][162]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.25:683][163]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.25:721][164]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.25:848][165]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.25:911][166]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.25:979][167]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:041][168]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:098][169]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:174][170]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:231][171]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:298][172]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:362][173]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:425][174]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:492][175]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:557][176]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:625][177]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:687][178]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:765][179]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:806][180]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:862][181]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:944][182]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.26:971][183]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:025][184]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:080][185]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:142][186]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:198][187]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:253][188]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:323][189]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:553][190]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:587][191]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:605][192]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:634][193]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:693][194]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:770][195]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:825][196]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:887][197]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.27:982][198]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.28:065][199]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.28:127][200]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.28:186][201]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.28:237][202]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.28:303][203]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.28:355][204]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.28:417][205]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.28:486][206]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.28:541][207]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.28:656][208]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.28:731][209]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.28:840][210]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.28:950][211]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:034][212]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:111][213]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:180][214]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:242][215]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:304][216]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:368][217]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:438][218]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:493][219]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:569][220]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:624][221]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:692][222]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:763][223]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:829][224]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:913][225]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.29:977][226]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:056][227]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:110][228]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:161][229]LogBlueprintUserMessages: [ThirdPersonExampleMap_C_2] 7点ゲット！
+[2017.05.26-03.47.30:183][229]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:254][230]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:316][231]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:388][232]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:446][233]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:532][234]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:597][235]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:662][236]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:723][237]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:787][238]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:858][239]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:928][240]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.30:995][241]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:098][242]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:126][243]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:195][244]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:266][245]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:331][246]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:395][247]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:452][248]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:541][249]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:604][250]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:662][251]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:734][252]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:805][253]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:876][254]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:941][255]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.31:997][256]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:065][257]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:135][258]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:214][259]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:271][260]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:343][261]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:405][262]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:473][263]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:551][264]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:596][265]LogBlueprintUserMessages: [ThirdPersonExampleMap_C_2] 14点ゲット！
+[2017.05.26-03.47.32:612][265]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:674][266]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:745][267]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:813][268]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:890][269]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:943][270]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.32:998][271]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:062][272]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:138][273]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:197][274]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:271][275]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:328][276]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:392][277]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:463][278]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:528][279]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:608][280]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:673][281]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:728][282]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:808][283]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:878][284]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.33:946][285]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:003][286]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:065][287]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:141][288]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:209][289]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:282][290]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:340][291]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:410][292]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:474][293]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:554][294]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:618][295]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:682][296]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:740][297]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:819][298]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:892][299]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.34:957][300]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:016][301]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:084][302]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:161][303]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:230][304]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:289][305]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:359][306]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:428][307]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:491][308]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:570][309]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:628][310]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:696][311]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:752][312]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:830][313]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:903][314]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.35:967][315]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:033][316]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:099][317]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:171][318]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:242][319]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:315][320]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:380][321]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:438][322]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:511][323]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:590][324]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:648][325]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:713][326]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:784][327]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:850][328]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:929][329]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.36:987][330]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:051][331]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:117][332]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:176][333]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:271][334]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:296][335]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:324][336]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:379][337]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:434][338]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:531][339]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:625][340]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:700][341]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:761][342]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:844][343]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:908][344]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.37:972][345]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:035][346]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:101][347]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:179][348]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:236][349]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:308][350]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:365][351]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:429][352]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:513][353]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:574][354]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:642][355]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:700][356]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:764][357]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:849][358]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:907][359]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.38:981][360]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:044][361]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:103][362]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:186][363]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:248][364]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:310][365]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:380][366]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:436][367]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:524][368]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:584][369]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:653][370]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:711][371]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:788][372]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:861][373]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:919][374]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.39:983][375]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:048][376]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:127][377]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:198][378]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:263][379]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:328][380]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:386][381]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:465][382]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:537][383]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:602][384]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:666][385]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:735][386]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:806][387]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:875][388]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.40:940][389]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:003][390]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:069][391]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:134][392]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:216][393]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:273][394]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:338][395]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:409][396]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:474][397]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:553][398]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:620][399]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:677][400]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:741][401]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:821][402]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:886][403]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.41:958][404]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:017][405]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:082][406]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:161][407]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:232][408]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:297][409]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:363][410]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:425][411]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:498][412]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:570][413]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:636][414]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:698][415]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:764][416]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:836][417]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:907][418]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.42:972][419]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:029][420]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:094][421]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:166][422]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:245][423]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:303][424]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:367][425]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:438][426]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:505][427]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:582][428]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:640][429]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:706][430]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:769][431]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:846][432]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:918][433]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.43:982][434]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:041][435]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:107][436]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:176][437]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:256][438]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:320][439]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:386][440]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:443][441]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:524][442]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:592][443]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:657][444]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:713][445]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:781][446]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:865][447]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:930][448]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.44:996][449]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:055][450]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:125][451]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:203][452]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:268][453]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:335][454]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:397][455]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:456][456]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:541][457]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:604][458]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:671][459]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:736][460]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:808][461]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:878][462]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.45:934][463]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:000][464]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:062][465]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:142][466]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:197][467]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:274][468]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:335][469]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:401][470]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:479][471]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:550][472]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:608][473]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:678][474]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:736][475]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:807][476]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:889][477]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.46:942][478]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:015][479]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:071][480]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:144][481]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:222][482]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:284][483]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:343][484]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:405][485]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:480][486]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:555][487]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:615][488]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:678][489]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:743][490]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:813][491]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:893][492]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:942][493]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.47:994][494]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.48:043][495]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.48:105][496]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.48:172][497]LogBlueprintUserMessages: [GameUI_C_4] 
+[2017.05.26-03.47.48:234][498]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.47.48:885][498]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.48.03:512][706]LogEditorViewport: Clicking on Actor (LMB): EnemySpawnPoint_C (EnemySpawnPoint2)
+[2017.05.26-03.48.05:885][739]Cmd: DELETE
+[2017.05.26-03.48.05:885][739]Cmd: ACTOR DELETE
+[2017.05.26-03.48.05:887][739]LogEditorActor: Deleted Actor: EnemySpawnPoint_C
+[2017.05.26-03.48.05:995][739]LogEditorActor: Deleted 1 Actors (0.110 secs)
+[2017.05.26-03.48.10:265][788]LogSavePackage: Save=299.05ms
+[2017.05.26-03.48.10:265][788]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/ThirdPersonExampleMapE79E61BA44F3A09B74E7B482151EA6E4.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.26-03.48.10:265][788]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2017.05.26-03.48.10:816][788]LogFileManager:Error: Error deleting file '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2017.05.26-03.48.10:817][788]LogSavePackage:Error: Error saving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.26-03.48.10:825][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.26-03.48.10:947][788]EditorErrors: New page: アウトプットを保存
+[2017.05.26-03.48.10:954][788]EditorErrors:Warning: 警告 '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' を保存時のエラー
+[2017.05.26-03.49.58:295][196]BlueprintLog: New page: ThirdPersonExampleMap をコンパイル
+[2017.05.26-03.50.07:155][297]LogSavePackage: Save=364.66ms
+[2017.05.26-03.50.07:155][297]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/ThirdPersonExampleMapD63589D1416B87513AA8D8BE808C597D.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.26-03.50.07:156][297]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2017.05.26-03.50.07:657][297]LogFileManager:Error: Error deleting file '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2017.05.26-03.50.07:658][297]LogSavePackage:Error: Error saving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.26-03.50.07:661][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.26-03.50.07:666][297]EditorErrors: New page: アウトプットを保存
+[2017.05.26-03.50.07:666][297]EditorErrors:Warning: 警告 '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' を保存時のエラー
+[2017.05.26-03.50.27:262][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/EnemyCharacter" FILE="../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/EnemyCharacter.uasset" SILENT=true
+[2017.05.26-03.50.27:457][501]LogSavePackage: Save=117.66ms
+[2017.05.26-03.50.27:457][501]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/EnemyCharacter83BA99594CCC228514D87E8628E04E35.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/EnemyCharacter.uasset'
+[2017.05.26-03.50.27:476][501]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/EnemyCharacter.uasset
+[2017.05.26-03.50.31:885][501]LogSavePackage: Save=555.06ms
+[2017.05.26-03.50.31:885][501]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/ThirdPersonExampleMapDBE7789941921D0915C349A8A534237B.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.26-03.50.31:886][501]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2017.05.26-03.50.32:387][501]LogFileManager:Error: Error deleting file '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2017.05.26-03.50.32:387][501]LogSavePackage:Error: Error saving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.26-03.50.32:391][501]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.26-03.50.32:394][501]EditorErrors: New page: アウトプットを保存
+[2017.05.26-03.50.32:394][501]EditorErrors:Warning: 警告 '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' を保存時のエラー
+[2017.05.26-03.50.32:413][501]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 4.920
+[2017.05.26-03.51.00:346][501]LogSavePackage: Save=600.03ms
+[2017.05.26-03.51.00:346][501]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/ThirdPersonExampleMapCFB065CC4EFD98A2EE5A8EB0B5466B1D.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.26-03.51.00:348][501]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2017.05.26-03.51.00:849][501]LogFileManager:Error: Error deleting file '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2017.05.26-03.51.00:849][501]LogSavePackage:Error: Error saving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.26-03.51.00:854][501]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.26-03.51.00:859][501]EditorErrors: New page: アウトプットを保存
+[2017.05.26-03.51.00:859][501]EditorErrors:Warning: 警告 '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' を保存時のエラー
+[2017.05.26-03.51.00:871][501]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.546
+[2017.05.26-03.51.41:242][501]LogSavePackage: Save=665.80ms
+[2017.05.26-03.51.41:243][501]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/ThirdPersonExampleMap558C3E5F40C9A70D60BEA99E07DFD654.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.26-03.51.41:245][501]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap', retrying in .5s...
+[2017.05.26-03.51.41:746][501]LogFileManager:Error: Error deleting file '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'.
+[2017.05.26-03.51.41:746][501]LogSavePackage:Error: Error saving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.26-03.51.41:751][501]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.26-03.51.41:755][501]EditorErrors: New page: アウトプットを保存
+[2017.05.26-03.51.41:755][501]EditorErrors:Warning: 警告 '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap' を保存時のエラー
+[2017.05.26-03.51.41:769][501]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 1.596
+[2017.05.26-03.52.03:078][542]LogSavePackage: Save=604.22ms
+[2017.05.26-03.52.03:078][542]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/ThirdPersonExampleMap_Auto546F564A84885B82023F47A8CEAFDB42C.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap'
+[2017.05.26-03.52.03:082][542]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto5.umap
+[2017.05.26-03.52.03:086][542]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.760
+[2017.05.26-03.52.03:086][542]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.760
+[2017.05.26-03.52.59:719][932]LogTemp: Repeting last play command: 選択ビューポート
+[2017.05.26-03.52.59:790][932]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.52.59:790][932]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.26-03.52.59:790][932]PIE: New page: PIEセッション: ThirdPersonExampleMap (2017/05/26 21:52:59)
+[2017.05.26-03.52.59:791][932]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.05.26-03.52.59:831][932]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040024s)
+[2017.05.26-03.52.59:836][932]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.05.26-03.52.59:836][932]LogPlayLevel: PIE: World Init took: (0.005467s)
+[2017.05.26-03.52.59:836][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.045950s)
+[2017.05.26-03.52.59:938][932]LogInit: XAudio2 using 'スピーカー (High Definition Audio デバイス)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.05.26-03.52.59:983][932]LogInit: FAudioDevice initialized.
+[2017.05.26-03.53.00:021][932]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.05.26-03.53.00:024][932]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.05.26-12.53.00
+[2017.05.26-03.53.00:025][932]LogWorld: Bringing up level for play took: 0.003109
+[2017.05.26-03.53.00:029][932]PIE: 情報 /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.877のプレイ イン エディタの開始時間
+[2017.05.26-03.53.00:030][932]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.53.00:041][932]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.00:303][933]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.00:317][934]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.00:446][935]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.00:553][936]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.00:621][937]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.00:675][938]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.00:731][939]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.00:792][940]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.00:848][941]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.00:910][942]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.00:971][943]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:026][944]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:088][945]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:150][946]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:206][947]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:271][948]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:324][949]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:380][950]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:441][951]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:496][952]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:568][953]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:612][954]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:674][955]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:730][956]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:792][957]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:846][958]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:908][959]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.01:973][960]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:033][961]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:089][962]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:150][963]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:231][964]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:274][965]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:330][966]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:399][967]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:447][968]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:516][969]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:571][970]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:633][971]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:688][972]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:762][973]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:814][974]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:877][975]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:933][976]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.02:992][977]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.03:048][978]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.03:118][979]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.03:174][980]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.03:236][981]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.03:298][982]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.03:362][983]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.03:416][984]LogBlueprintUserMessages: [GameUI_C_5] 
+[2017.05.26-03.53.03:478][985]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.53.03:584][985]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.05.26-03.53.07:650][ 29]LogSavePackage: Save=510.64ms
+[2017.05.26-03.53.07:650][ 29]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/ThirdPersonExampleMapF7D3E159498957EEAB070AB0B7AF9D75.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.05.26-03.53.07:664][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.05.26-03.53.08:661][ 29]LogSavePackage: Save=634.16ms
+[2017.05.26-03.53.08:661][ 29]LogSavePackage: Moving '../../../../../../Users/16148006S/Documents/UE4CraneProject/Saved/ThirdPersonExampleMap_BuiltDataDE9CFC1249F36EE6148BE5B3D99B090F.tmp' to '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.05.26-03.53.08:664][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.05.26-03.53.12:307][ 77]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.05.26-03.53.13:299][ 77]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft IME).
+[2017.05.26-03.53.14:335][ 78]Cmd: QUIT_EDITOR
+[2017.05.26-03.53.15:151][ 78]LogExit: Preparing to exit.
+[2017.05.26-03.53.15:895][ 78]LogDirectoryWatcher: A directory notification for 'C:/Users/16148006S/Documents/UE4CraneProject/Content/' was aborted.
+[2017.05.26-03.53.19:238][ 78]LogExit: Editor shut down
+[2017.05.26-03.53.19:412][ 78]LogExit: Transaction tracking system shut down
+[2017.05.26-03.53.21:050][ 78]LogObj: Freed 0b from 0 cluster array pools.
+[2017.05.26-03.53.21:051][ 78]LogExit: Object subsystem successfully closed.
+[2017.05.26-03.53.22:162][ 78]LogD3D11RHI: Shutdown
+[2017.05.26-03.53.22:162][ 78]LogD3D11RHI: CleanupD3DDevice
+[2017.05.26-03.53.23:972][ 78]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.05.26-03.53.24:813][ 78]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (502)
+[2017.05.26-03.53.24:813][ 78]LogModuleManager: Shutting down and abandoning module BlueprintGraph (500)
+[2017.05.26-03.53.24:813][ 78]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (498)
+[2017.05.26-03.53.24:813][ 78]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (496)
+[2017.05.26-03.53.24:813][ 78]LogModuleManager: Shutting down and abandoning module CrashTracker (494)
+[2017.05.26-03.53.24:841][ 78]LogModuleManager: Shutting down and abandoning module SceneOutliner (492)
+[2017.05.26-03.53.24:841][ 78]LogModuleManager: Shutting down and abandoning module AddContentDialog (490)
+[2017.05.26-03.53.24:874][ 78]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.05.26-03.53.25:042][ 78]LogModuleManager: Shutting down and abandoning module WidgetCarousel (489)
+[2017.05.26-03.53.25:042][ 78]LogModuleManager: Shutting down and abandoning module EditorWidgets (486)
+[2017.05.26-03.53.25:042][ 78]LogModuleManager: Shutting down and abandoning module CollectionManager (484)
+[2017.05.26-03.53.25:042][ 78]LogDirectoryWatcher: A directory notification for 'C:/Users/16148006S/Documents/UE4CraneProject/Content/Collections/' was aborted.
+[2017.05.26-03.53.25:042][ 78]LogDirectoryWatcher: A directory notification for 'C:/Users/16148006S/Documents/UE4CraneProject/Content/Developers/16148006S/Collections/' was aborted.
+[2017.05.26-03.53.25:042][ 78]LogDirectoryWatcher: A directory notification for 'C:/Users/16148006S/Documents/UE4CraneProject/Saved/Collections/' was aborted.
+[2017.05.26-03.53.25:042][ 78]LogModuleManager: Shutting down and abandoning module StatsViewer (482)
+[2017.05.26-03.53.25:043][ 78]LogModuleManager: Shutting down and abandoning module FoliageEdit (480)
+[2017.05.26-03.53.25:043][ 78]LogModuleManager: Shutting down and abandoning module LandscapeEditor (478)
+[2017.05.26-03.53.25:043][ 78]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (476)
+[2017.05.26-03.53.25:043][ 78]LogModuleManager: Shutting down and abandoning module ActorPickerMode (474)
+[2017.05.26-03.53.25:043][ 78]LogModuleManager: Shutting down and abandoning module GeometryMode (472)
+[2017.05.26-03.53.25:043][ 78]LogModuleManager: Shutting down and abandoning module TextureAlignMode (470)
+[2017.05.26-03.53.25:043][ 78]LogModuleManager: Shutting down and abandoning module BspMode (468)
+[2017.05.26-03.53.25:043][ 78]LogModuleManager: Shutting down and abandoning module HardwareSurvey (466)
+[2017.05.26-03.53.25:043][ 78]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (464)
+[2017.05.26-03.53.25:043][ 78]LogModuleManager: Shutting down and abandoning module AutomationWorker (462)
+[2017.05.26-03.53.25:043][ 78]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (460)
+[2017.05.26-03.53.25:043][ 78]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (458)
+[2017.05.26-03.53.25:043][ 78]LogModuleManager: Shutting down and abandoning module PlacementMode (457)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (454)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (452)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module MfMediaFactory (450)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module MfMediaEditor (448)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (446)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (444)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (442)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module Media (441)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (438)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module CharacterAI (436)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module AudioCapture (434)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module SequenceRecorder (433)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module SmartSnapping (430)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module LogVisualizer (422)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module IntroTutorials (420)
+[2017.05.26-03.53.25:044][ 78]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (419)
+[2017.05.26-03.53.25:045][ 78]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (416)
+[2017.05.26-03.53.25:045][ 78]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2017.05.26-03.53.25:045][ 78]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2017.05.26-03.53.25:045][ 78]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2017.05.26-03.53.25:045][ 78]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2017.05.26-03.53.25:394][ 78]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (406)
+[2017.05.26-03.53.25:394][ 78]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (404)
+[2017.05.26-03.53.25:394][ 78]LogModuleManager: Shutting down and abandoning module InputBindingEditor (402)
+[2017.05.26-03.53.25:394][ 78]LogModuleManager: Shutting down and abandoning module NiagaraEditor (400)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module UserFeedback (380)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module XmlParser (378)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module Blutility (376)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (374)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (373)
+[2017.05.26-03.53.25:395][ 78]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (370)
+[2017.05.26-03.53.25:396][ 78]LogModuleManager: Shutting down and abandoning module SettingsEditor (368)
+[2017.05.26-03.53.25:396][ 78]LogModuleManager: Shutting down and abandoning module ProjectLauncher (366)
+[2017.05.26-03.53.25:396][ 78]LogModuleManager: Shutting down and abandoning module SessionFrontend (364)
+[2017.05.26-03.53.25:396][ 78]LogModuleManager: Shutting down and abandoning module ProfilerClient (362)
+[2017.05.26-03.53.25:396][ 78]LogModuleManager: Shutting down and abandoning module DeviceManager (360)
+[2017.05.26-03.53.25:396][ 78]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (359)
+[2017.05.26-03.53.25:471][ 78]LogModuleManager: Shutting down and abandoning module AutomationController (356)
+[2017.05.26-03.53.25:471][ 78]LogModuleManager: Shutting down and abandoning module AutomationWindow (354)
+[2017.05.26-03.53.25:471][ 78]LogModuleManager: Shutting down and abandoning module Layers (352)
+[2017.05.26-03.53.25:471][ 78]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (350)
+[2017.05.26-03.53.25:471][ 78]LogModuleManager: Shutting down and abandoning module DetailCustomizations (348)
+[2017.05.26-03.53.25:471][ 78]LogModuleManager: Shutting down and abandoning module PackagesDialog (346)
+[2017.05.26-03.53.25:472][ 78]LogModuleManager: Shutting down and abandoning module Persona (344)
+[2017.05.26-03.53.25:472][ 78]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2017.05.26-03.53.25:472][ 78]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2017.05.26-03.53.25:518][ 78]LogModuleManager: Shutting down and abandoning module GraphEditor (338)
+[2017.05.26-03.53.25:518][ 78]LogModuleManager: Shutting down and abandoning module ClassViewer (336)
+[2017.05.26-03.53.25:520][ 78]LogModuleManager: Shutting down and abandoning module Toolbox (334)
+[2017.05.26-03.53.25:520][ 78]LogModuleManager: Shutting down and abandoning module ModuleUI (332)
+[2017.05.26-03.53.25:521][ 78]LogModuleManager: Shutting down and abandoning module MovieSceneTools (330)
+[2017.05.26-03.53.25:521][ 78]LogModuleManager: Shutting down and abandoning module OutputLog (328)
+[2017.05.26-03.53.25:521][ 78]LogModuleManager: Shutting down and abandoning module GammaUI (326)
+[2017.05.26-03.53.25:521][ 78]LogModuleManager: Shutting down and abandoning module Documentation (324)
+[2017.05.26-03.53.25:521][ 78]LogModuleManager: Shutting down and abandoning module Niagara (322)
+[2017.05.26-03.53.25:521][ 78]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (320)
+[2017.05.26-03.53.25:521][ 78]LogModuleManager: Shutting down and abandoning module AnalyticsET (318)
+[2017.05.26-03.53.25:521][ 78]LogModuleManager: Shutting down and abandoning module PortalServices (316)
+[2017.05.26-03.53.25:521][ 78]LogModuleManager: Shutting down and abandoning module PortalRpc (314)
+[2017.05.26-03.53.25:521][ 78]LogModuleManager: Shutting down and abandoning module MessagingRpc (312)
+[2017.05.26-03.53.25:521][ 78]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2017.05.26-03.53.25:522][ 78]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2017.05.26-03.53.25:522][ 78]LogModuleManager: Shutting down and abandoning module AITestSuite (307)
+[2017.05.26-03.53.25:522][ 78]LogModuleManager: Shutting down and abandoning module ProfilerService (304)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module TaskGraph (302)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module SteamVRController (300)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module SteamVR (298)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (296)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (294)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module OculusLibrary (292)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module OculusInput (290)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (288)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (286)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module CableComponent (284)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (282)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (278)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module HTML5Networking (276)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module AlembicImporter (274)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module AlembicLibrary (273)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module GeometryCache (272)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (271)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (266)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module SuperSearch (265)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (262)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module PluginBrowser (260)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (258)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module EpicSurvey (256)
+[2017.05.26-03.53.25:737][ 78]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (254)
+[2017.05.26-03.53.25:738][ 78]LogModuleManager: Shutting down and abandoning module DesktopPlatform (253)
+[2017.05.26-03.53.25:738][ 78]LogModuleManager: Shutting down and abandoning module UObjectPlugin (250)
+[2017.05.26-03.53.25:738][ 78]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (248)
+[2017.05.26-03.53.25:738][ 78]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (246)
+[2017.05.26-03.53.25:738][ 78]LogModuleManager: Shutting down and abandoning module GitSourceControl (244)
+[2017.05.26-03.53.25:738][ 78]LogModuleManager: Shutting down and abandoning module SourceControl (243)
+[2017.05.26-03.53.25:738][ 78]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (240)
+[2017.05.26-03.53.25:738][ 78]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (238)
+[2017.05.26-03.53.25:738][ 78]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (236)
+[2017.05.26-03.53.25:738][ 78]LogModuleManager: Shutting down and abandoning module Paper2DEditor (234)
+[2017.05.26-03.53.25:738][ 78]LogModuleManager: Shutting down and abandoning module MeshPaint (233)
+[2017.05.26-03.53.25:738][ 78]LogModuleManager: Shutting down and abandoning module LevelEditor (231)
+[2017.05.26-03.53.25:740][ 78]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (230)
+[2017.05.26-03.53.25:740][ 78]LogModuleManager: Shutting down and abandoning module MainFrame (228)
+[2017.05.26-03.53.25:740][ 78]LogModuleManager: Shutting down and abandoning module HotReload (227)
+[2017.05.26-03.53.25:741][ 78]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.05.26-03.53.25:744][ 78]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (220)
+[2017.05.26-03.53.25:744][ 78]LogModuleManager: Shutting down and abandoning module PhysXVehicles (218)
+[2017.05.26-03.53.25:744][ 78]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (216)
+[2017.05.26-03.53.25:744][ 78]LogModuleManager: Shutting down and abandoning module UdpMessaging (214)
+[2017.05.26-03.53.25:844][ 78]LogModuleManager: Shutting down and abandoning module TcpMessaging (212)
+[2017.05.26-03.53.25:946][ 78]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (210)
+[2017.05.26-03.53.25:946][ 78]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (208)
+[2017.05.26-03.53.25:946][ 78]LogModuleManager: Shutting down and abandoning module FacialAnimation (206)
+[2017.05.26-03.53.25:946][ 78]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (204)
+[2017.05.26-03.53.25:946][ 78]LogModuleManager: Shutting down and abandoning module Paper2D (202)
+[2017.05.26-03.53.25:946][ 78]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (200)
+[2017.05.26-03.53.25:946][ 78]LogModuleManager: Shutting down and abandoning module WmfMedia (198)
+[2017.05.26-03.53.25:946][ 78]LogModuleManager: Shutting down and abandoning module MfMedia (196)
+[2017.05.26-03.53.25:946][ 78]LogModuleManager: Shutting down and abandoning module MediaAssets (194)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (192)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module VREditor (190)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (188)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (186)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module FunctionalTesting (184)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (182)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module UMG (180)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module UMGEditor (179)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module Sequencer (178)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module AssetTools (176)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module MessageLog (175)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (174)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module SlateReflector (168)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module Slate (166)
+[2017.05.26-03.53.25:947][ 78]LogModuleManager: Shutting down and abandoning module EditorStyle (164)
+[2017.05.26-03.53.25:953][ 78]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (162)
+[2017.05.26-03.53.25:953][ 78]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (160)
+[2017.05.26-03.53.25:953][ 78]LogModuleManager: Shutting down and abandoning module XAudio2 (158)
+[2017.05.26-03.53.25:953][ 78]LogModuleManager: Shutting down and abandoning module Networking (156)
+[2017.05.26-03.53.25:954][ 78]LogModuleManager: Shutting down and abandoning module Core (152)
+[2017.05.26-03.53.25:954][ 78]LogModuleManager: Shutting down and abandoning module AssetRegistry (150)
+[2017.05.26-03.53.26:744][ 78]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.05.26-03.53.26:744][ 78]LogDirectoryWatcher: A directory notification for '../../../../../../Users/16148006S/Documents/UE4CraneProject/Content/' was aborted.
+[2017.05.26-03.53.26:744][ 78]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.05.26-03.53.26:745][ 78]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (149)
+[2017.05.26-03.53.26:761][ 78]LogModuleManager: Shutting down and abandoning module KismetCompiler (146)
+[2017.05.26-03.53.26:761][ 78]LogModuleManager: Shutting down and abandoning module PhysXFormats (144)
+[2017.05.26-03.53.26:761][ 78]LogModuleManager: Shutting down and abandoning module MeshUtilities (142)
+[2017.05.26-03.53.26:762][ 78]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (141)
+[2017.05.26-03.53.26:762][ 78]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (139)
+[2017.05.26-03.53.26:762][ 78]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (137)
+[2017.05.26-03.53.26:762][ 78]LogModuleManager: Shutting down and abandoning module PropertyEditor (135)
+[2017.05.26-03.53.26:762][ 78]LogModuleManager: Shutting down and abandoning module DerivedDataCache (132)
+[2017.05.26-03.53.26:849][ 78]LogDerivedDataCache: Shutdown
+[2017.05.26-03.53.26:849][ 78]LogModuleManager: Shutting down and abandoning module TargetPlatform (130)
+[2017.05.26-03.53.26:849][ 78]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (129)
+[2017.05.26-03.53.26:849][ 78]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (127)
+[2017.05.26-03.53.26:849][ 78]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (125)
+[2017.05.26-03.53.26:850][ 78]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (123)
+[2017.05.26-03.53.26:850][ 78]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (121)
+[2017.05.26-03.53.26:850][ 78]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (119)
+[2017.05.26-03.53.26:850][ 78]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (117)
+[2017.05.26-03.53.26:850][ 78]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (115)
+[2017.05.26-03.53.26:850][ 78]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (113)
+[2017.05.26-03.53.26:850][ 78]LogModuleManager: Shutting down and abandoning module ImageWrapper (112)
+[2017.05.26-03.53.26:851][ 78]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (109)
+[2017.05.26-03.53.26:851][ 78]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (107)
+[2017.05.26-03.53.26:851][ 78]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (105)
+[2017.05.26-03.53.26:851][ 78]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (103)
+[2017.05.26-03.53.26:851][ 78]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (101)
+[2017.05.26-03.53.26:851][ 78]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (99)
+[2017.05.26-03.53.26:851][ 78]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (97)
+[2017.05.26-03.53.26:851][ 78]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (95)
+[2017.05.26-03.53.26:851][ 78]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (93)
+[2017.05.26-03.53.26:851][ 78]LogModuleManager: Shutting down and abandoning module Messaging (91)
+[2017.05.26-03.53.26:851][ 78]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (89)
+[2017.05.26-03.53.26:852][ 78]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (87)
+[2017.05.26-03.53.26:852][ 78]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (85)
+[2017.05.26-03.53.26:852][ 78]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (83)
+[2017.05.26-03.53.26:852][ 78]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (81)
+[2017.05.26-03.53.26:852][ 78]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (79)
+[2017.05.26-03.53.26:853][ 78]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (77)
+[2017.05.26-03.53.26:853][ 78]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (75)
+[2017.05.26-03.53.26:853][ 78]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (73)
+[2017.05.26-03.53.26:853][ 78]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (71)
+[2017.05.26-03.53.26:853][ 78]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2017.05.26-03.53.26:853][ 78]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2017.05.26-03.53.26:853][ 78]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2017.05.26-03.53.26:853][ 78]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2017.05.26-03.53.26:853][ 78]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (61)
+[2017.05.26-03.53.26:854][ 78]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (59)
+[2017.05.26-03.53.26:854][ 78]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (57)
+[2017.05.26-03.53.26:854][ 78]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (55)
+[2017.05.26-03.53.26:854][ 78]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (53)
+[2017.05.26-03.53.26:854][ 78]LogModuleManager: Shutting down and abandoning module InputCore (50)
+[2017.05.26-03.53.26:854][ 78]LogModuleManager: Shutting down and abandoning module Settings (48)
+[2017.05.26-03.53.26:855][ 78]LogModuleManager: Shutting down and abandoning module OculusRift (46)
+[2017.05.26-03.53.26:855][ 78]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.05.26-03.53.26:855][ 78]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.05.26-03.53.26:855][ 78]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.05.26-03.53.26:855][ 78]LogOnline:Display: Unloading online subsystem: NULL
+[2017.05.26-03.53.26:855][ 78]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.05.26-03.53.26:855][ 78]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.05.26-03.53.26:855][ 78]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.05.26-03.53.26:855][ 78]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBE2B5EC0-4820-A5C8-150C-5B8A680FD6E7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.0-3299760%2B%2B%2BUE4%2BRelease-4.15&UserID=12a8dae1473d6c2a66a1bf87b812c928%7Cc5df9eff1ba8467988cd5f6f44cacb1c%7C0738e75e-8123-43bc-9067-d7657b130072&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.05.26-03.53.26:875][ 78]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.05.26-03.53.26:882][ 78]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.05.26-03.53.26:882][ 78]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.05.26-03.53.26:882][ 78]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.05.26-03.53.26:882][ 78]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.05.26-03.53.26:882][ 78]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.05.26-03.53.26:997][ 78]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.05.26-03.53.26:998][ 78]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.05.26-03.53.26:998][ 78]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.05.26-03.53.26:998][ 78]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.05.26-03.53.26:998][ 78]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.05.26-03.53.26:998][ 78]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.05.26-03.53.26:998][ 78]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.05.26-03.53.27:015][ 78]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.05.26-03.53.27:015][ 78]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.05.26-03.53.27:015][ 78]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.05.26-03.53.27:019][ 78]LogExit: Exiting.
+[2017.05.26-03.53.27:129][ 78]Log file closed, 05/26/17 12:53:27
